@@ -1,0 +1,56 @@
+# ── 密钥与本地配置（绝不入库）──
+.env
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+
+# ── 模型权重与量化产物（体积大，按 README 获取/构建）──
+qwen3-0_6b/
+qwen3-0_6b_lora_last_assistant/
+qwen3-0_6b_lora_merged/
+qwen3_4b_instruct_lora_v1_last_assistant/
+qwen3-4b-lora-adapter/
+smoke_lora_out/
+ollama_models/
+*.gguf
+*.safetensors
+
+# ── 中间产物（可由脚本重新生成）──
+converted_test_final/
+converted_train_final/
+test_converted/
+_dl2_tmp/
+_install_tmp/
+_backup/
+
+# ── 训练语料（体积大；用 training/ 生成管线 + 训练脚本重建）──
+datasets/merged_train_final*.json
+
+# ── 向量库/数据库文件（可由 rag-system 的 ingest 管线重建）──
+*.db
+*.db.lock
+agent_memory.sqlite
+agent_memory.sqlite-*
+milvus_lite_data/
+rag-system/milvus_lite.db.stale_*
+rag-system/.cache/
+
+# ── 日志与系统文件 ──
+*.log
+.DS_Store
+.idea/
+
+# ── 本地缓存（4B 改写 / 意图识别）──
+.cache/
+
+# ── 请求流水日志（按天落盘，不入库）──
+logs/
+
+# ── LangGraph 学习（临时，学完再决定是否入库）──
+langgraph_learn/

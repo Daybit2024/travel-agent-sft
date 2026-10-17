@@ -1,0 +1,39 @@
+# 基础依赖
+requests>=2.28.0
+openai>=1.0.0
+python-dotenv>=1.0.0
+typing-extensions>=4.5.0
+
+# Agent 运行时（LangGraph 版）
+langgraph>=1.2,<2
+langchain-openai>=1.7,<2
+langgraph-checkpoint-sqlite>=3.1,<4
+
+# 网页 Demo（可选）
+# 注意: gradio 6 要求 huggingface-hub>=1.16 而 transformers 4.x 要求 <1.0，互斥 → 钉 5.x
+gradio>=5,<6
+
+# 测试（可选）
+pytest>=7.0
+
+# 数据处理
+pandas>=1.5.0
+numpy>=1.24.0
+tqdm>=4.65.0
+
+# 机器学习和深度学习
+torch>=2.0.0
+# 注意: 本项目脚本基于 transformers 4.x API 编写, 切勿升级到 5.x(会报
+# TrainingArguments 参数不识别等错误), 故加 <5 上限
+transformers>=4.36.0,<5.0.0
+huggingface-hub>=0.34.0,<1.0
+datasets>=2.14.0
+accelerate>=0.24.0
+peft>=0.7.0
+trl>=0.7.0
+bitsandbytes>=0.41.0
+
+# RAG系统依赖
+pymilvus>=2.4.0
+flask>=2.3.0
+jieba>=0.42.1
