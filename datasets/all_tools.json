@@ -1,0 +1,126 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "search_travel_guide",
+      "description": "搜索旅行攻略信息，获取目的地的详细旅游信息",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "location": {
+            "type": "string",
+            "description": "目的地城市名称，如'北京'、'上海'"
+          },
+          "search_mode": {
+            "type": "string",
+            "description": "搜索模式：vector(向量搜索)、keyword(关键词搜索)、hybrid(混合搜索)",
+            "enum": [
+              "vector",
+              "keyword",
+              "hybrid"
+            ],
+            "default": "hybrid"
+          }
+        },
+        "required": [
+          "location"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_weather_info",
+      "description": "查询指定地点和时间段的天气信息",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "location": {
+            "type": "string",
+            "description": "城市或景区名称，如'北京'、'婺源篁岭'"
+          },
+          "start_date": {
+            "type": "string",
+            "description": "开始日期，格式 YYYY-MM-DD（用户说'今天/明天'时按用户信息中的当前日期换算）"
+          },
+          "num_days": {
+            "type": "integer",
+            "description": "查询天数：用户说要几天就传几天（如“三日游”传3）；用户没明确说时按默认1天，不要用攻略文档里的天数（攻略天数是生成时随机选的）"
+          }
+        },
+        "required": [
+          "location",
+          "start_date"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "query_route",
+      "description": "查询两地之间的路线，包括步行、公交、驾车路线",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "start_location": {
+            "type": "string",
+            "description": "起点坐标，如'116.481028,39.989643'"
+          },
+          "end_location": {
+            "type": "string",
+            "description": "终点地址，如'颐和园'"
+          },
+          "city_code": {
+            "type": "string",
+            "description": "城市代码，默认'110000'(北京)",
+            "default": "110000"
+          }
+        },
+        "required": [
+          "start_location",
+          "end_location"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "recommend_hotels",
+      "description": "根据用户需求推荐酒店",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "requirements": {
+            "type": "string",
+            "description": "用户对酒店的需求描述。必须完整保留用户提到的城市、酒店类型（如商务酒店/经济型/五星级/民宿/青年旅舍）、预算等关键约束，不得省略或改写类型偏好"
+          }
+        },
+        "required": [
+          "requirements"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_hotel_reviews",
+      "description": "获取指定酒店的用户评价信息",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "hotel_name": {
+            "type": "string",
+            "description": "酒店名称"
+          }
+        },
+        "required": [
+          "hotel_name"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,7472 @@
+{
+  "suite_a": {
+    "top1": 731,
+    "top3": 731,
+    "total": 731,
+    "failures": [],
+    "rows": [
+      {
+        "city": "北京市",
+        "code": "110000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "北京市"
+        ]
+      },
+      {
+        "city": "天津市",
+        "code": "120000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "天津市",
+          "津市市"
+        ]
+      },
+      {
+        "city": "上海市",
+        "code": "310000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "上海市"
+        ]
+      },
+      {
+        "city": "重庆市",
+        "code": "500000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "重庆市"
+        ]
+      },
+      {
+        "city": "石家庄市",
+        "code": "130100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "石家庄市"
+        ]
+      },
+      {
+        "city": "唐山市",
+        "code": "130200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "唐山市"
+        ]
+      },
+      {
+        "city": "秦皇岛市",
+        "code": "130300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "秦皇岛市"
+        ]
+      },
+      {
+        "city": "邯郸市",
+        "code": "130400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "邯郸市"
+        ]
+      },
+      {
+        "city": "邢台市",
+        "code": "130500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "邢台市"
+        ]
+      },
+      {
+        "city": "保定市",
+        "code": "130600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "保定市"
+        ]
+      },
+      {
+        "city": "张家口市",
+        "code": "130700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "张家口市"
+        ]
+      },
+      {
+        "city": "承德市",
+        "code": "130800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "承德市"
+        ]
+      },
+      {
+        "city": "沧州市",
+        "code": "130900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "沧州市"
+        ]
+      },
+      {
+        "city": "廊坊市",
+        "code": "131000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "廊坊市"
+        ]
+      },
+      {
+        "city": "衡水市",
+        "code": "131100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "衡水市"
+        ]
+      },
+      {
+        "city": "辛集市",
+        "code": "130181",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "辛集市"
+        ]
+      },
+      {
+        "city": "藁城市",
+        "code": "130182",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "藁城市"
+        ]
+      },
+      {
+        "city": "晋州市",
+        "code": "130183",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "晋州市"
+        ]
+      },
+      {
+        "city": "新乐市",
+        "code": "130184",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "新乐市"
+        ]
+      },
+      {
+        "city": "鹿泉市",
+        "code": "130185",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "鹿泉市"
+        ]
+      },
+      {
+        "city": "遵化市",
+        "code": "130281",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "遵化市"
+        ]
+      },
+      {
+        "city": "迁安市",
+        "code": "130283",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "迁安市"
+        ]
+      },
+      {
+        "city": "武安市",
+        "code": "130481",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "武安市"
+        ]
+      },
+      {
+        "city": "南宫市",
+        "code": "130581",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "南宫市"
+        ]
+      },
+      {
+        "city": "沙河市",
+        "code": "130582",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "沙河市"
+        ]
+      },
+      {
+        "city": "涿州市",
+        "code": "130681",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "涿州市"
+        ]
+      },
+      {
+        "city": "定州市",
+        "code": "130682",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "定州市"
+        ]
+      },
+      {
+        "city": "安国市",
+        "code": "130683",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "安国市"
+        ]
+      },
+      {
+        "city": "高碑店市",
+        "code": "130684",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "高碑店市"
+        ]
+      },
+      {
+        "city": "泊头市",
+        "code": "130981",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "泊头市"
+        ]
+      },
+      {
+        "city": "任丘市",
+        "code": "130982",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "任丘市"
+        ]
+      },
+      {
+        "city": "黄骅市",
+        "code": "130983",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "黄骅市"
+        ]
+      },
+      {
+        "city": "河间市",
+        "code": "130984",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "河间市"
+        ]
+      },
+      {
+        "city": "霸州市",
+        "code": "131081",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "霸州市"
+        ]
+      },
+      {
+        "city": "三河市",
+        "code": "131082",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "三河市"
+        ]
+      },
+      {
+        "city": "深州市",
+        "code": "131181",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "深州市"
+        ]
+      },
+      {
+        "city": "太原市",
+        "code": "140100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "太原市"
+        ]
+      },
+      {
+        "city": "大同市",
+        "code": "140200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "大同市"
+        ]
+      },
+      {
+        "city": "阳泉市",
+        "code": "140300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "阳泉市"
+        ]
+      },
+      {
+        "city": "长治市",
+        "code": "140400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "长治市"
+        ]
+      },
+      {
+        "city": "晋城市",
+        "code": "140500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "晋城市"
+        ]
+      },
+      {
+        "city": "朔州市",
+        "code": "140600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "朔州市"
+        ]
+      },
+      {
+        "city": "晋中市",
+        "code": "140700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "晋中市"
+        ]
+      },
+      {
+        "city": "运城市",
+        "code": "140800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "运城市"
+        ]
+      },
+      {
+        "city": "忻州市",
+        "code": "140900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "忻州市"
+        ]
+      },
+      {
+        "city": "临汾市",
+        "code": "141000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "临汾市"
+        ]
+      },
+      {
+        "city": "吕梁市",
+        "code": "141100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "吕梁市"
+        ]
+      },
+      {
+        "city": "古交市",
+        "code": "140181",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "古交市"
+        ]
+      },
+      {
+        "city": "潞城市",
+        "code": "140481",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "潞城市"
+        ]
+      },
+      {
+        "city": "高平市",
+        "code": "140581",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "高平市"
+        ]
+      },
+      {
+        "city": "介休市",
+        "code": "140781",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "介休市"
+        ]
+      },
+      {
+        "city": "永济市",
+        "code": "140881",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "永济市"
+        ]
+      },
+      {
+        "city": "河津市",
+        "code": "140882",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "河津市",
+          "津市市"
+        ]
+      },
+      {
+        "city": "原平市",
+        "code": "140981",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "原平市"
+        ]
+      },
+      {
+        "city": "侯马市",
+        "code": "141081",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "侯马市"
+        ]
+      },
+      {
+        "city": "霍州市",
+        "code": "141082",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "霍州市"
+        ]
+      },
+      {
+        "city": "孝义市",
+        "code": "141181",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "孝义市"
+        ]
+      },
+      {
+        "city": "汾阳市",
+        "code": "141182",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "汾阳市"
+        ]
+      },
+      {
+        "city": "呼和浩特市",
+        "code": "150100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "呼和浩特市"
+        ]
+      },
+      {
+        "city": "包头市",
+        "code": "150200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "包头市"
+        ]
+      },
+      {
+        "city": "乌海市",
+        "code": "150300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "乌海市"
+        ]
+      },
+      {
+        "city": "赤峰市",
+        "code": "150400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "赤峰市"
+        ]
+      },
+      {
+        "city": "通辽市",
+        "code": "150500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "通辽市"
+        ]
+      },
+      {
+        "city": "鄂尔多斯市",
+        "code": "150600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "鄂尔多斯市"
+        ]
+      },
+      {
+        "city": "呼伦贝尔市",
+        "code": "150700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "呼伦贝尔市"
+        ]
+      },
+      {
+        "city": "巴彦淖尔市",
+        "code": "150800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "巴彦淖尔市"
+        ]
+      },
+      {
+        "city": "乌兰察布市",
+        "code": "150900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "乌兰察布市"
+        ]
+      },
+      {
+        "city": "兴安盟",
+        "code": "152200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "兴安盟"
+        ]
+      },
+      {
+        "city": "锡林郭勒盟",
+        "code": "152500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "锡林郭勒盟"
+        ]
+      },
+      {
+        "city": "阿拉善盟",
+        "code": "152900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "阿拉善盟"
+        ]
+      },
+      {
+        "city": "霍林郭勒市",
+        "code": "150581",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "霍林郭勒市"
+        ]
+      },
+      {
+        "city": "满洲里市",
+        "code": "150781",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "满洲里市"
+        ]
+      },
+      {
+        "city": "牙克石市",
+        "code": "150782",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "牙克石市"
+        ]
+      },
+      {
+        "city": "扎兰屯市",
+        "code": "150783",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "扎兰屯市"
+        ]
+      },
+      {
+        "city": "根河市",
+        "code": "150784",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "根河市"
+        ]
+      },
+      {
+        "city": "额尔古纳市",
+        "code": "150785",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "额尔古纳市"
+        ]
+      },
+      {
+        "city": "丰镇市",
+        "code": "150981",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "丰镇市"
+        ]
+      },
+      {
+        "city": "锡林浩特市",
+        "code": "152501",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "锡林浩特市"
+        ]
+      },
+      {
+        "city": "二连浩特市",
+        "code": "152502",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "二连浩特市"
+        ]
+      },
+      {
+        "city": "沈阳市",
+        "code": "210100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "沈阳市"
+        ]
+      },
+      {
+        "city": "大连市",
+        "code": "210200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "大连市"
+        ]
+      },
+      {
+        "city": "鞍山市",
+        "code": "210300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "鞍山市"
+        ]
+      },
+      {
+        "city": "抚顺市",
+        "code": "210400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "抚顺市"
+        ]
+      },
+      {
+        "city": "本溪市",
+        "code": "210500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "本溪市"
+        ]
+      },
+      {
+        "city": "丹东市",
+        "code": "210600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "丹东市"
+        ]
+      },
+      {
+        "city": "锦州市",
+        "code": "210700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "锦州市"
+        ]
+      },
+      {
+        "city": "营口市",
+        "code": "210800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "营口市"
+        ]
+      },
+      {
+        "city": "阜新市",
+        "code": "210900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "阜新市"
+        ]
+      },
+      {
+        "city": "辽阳市",
+        "code": "211000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "辽阳市"
+        ]
+      },
+      {
+        "city": "盘锦市",
+        "code": "211100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "盘锦市"
+        ]
+      },
+      {
+        "city": "铁岭市",
+        "code": "211200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "铁岭市"
+        ]
+      },
+      {
+        "city": "朝阳市",
+        "code": "211300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "朝阳市"
+        ]
+      },
+      {
+        "city": "葫芦岛市",
+        "code": "211400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "葫芦岛市"
+        ]
+      },
+      {
+        "city": "新民市",
+        "code": "210181",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "新民市"
+        ]
+      },
+      {
+        "city": "瓦房店市",
+        "code": "210281",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "瓦房店市"
+        ]
+      },
+      {
+        "city": "普兰店市",
+        "code": "210282",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "普兰店市"
+        ]
+      },
+      {
+        "city": "庄河市",
+        "code": "210283",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "庄河市"
+        ]
+      },
+      {
+        "city": "海城市",
+        "code": "210381",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "海城市"
+        ]
+      },
+      {
+        "city": "东港市",
+        "code": "210681",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "东港市"
+        ]
+      },
+      {
+        "city": "凤城市",
+        "code": "210682",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "凤城市"
+        ]
+      },
+      {
+        "city": "凌海市",
+        "code": "210781",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "凌海市"
+        ]
+      },
+      {
+        "city": "北镇市",
+        "code": "210782",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "北镇市"
+        ]
+      },
+      {
+        "city": "大石桥市",
+        "code": "210881",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "大石桥市"
+        ]
+      },
+      {
+        "city": "盖州市",
+        "code": "210882",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "盖州市"
+        ]
+      },
+      {
+        "city": "灯塔市",
+        "code": "211081",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "灯塔市"
+        ]
+      },
+      {
+        "city": "调兵山市",
+        "code": "211181",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "调兵山市"
+        ]
+      },
+      {
+        "city": "开原市",
+        "code": "211281",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "开原市"
+        ]
+      },
+      {
+        "city": "凌源市",
+        "code": "211381",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "凌源市"
+        ]
+      },
+      {
+        "city": "北票市",
+        "code": "211382",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "北票市"
+        ]
+      },
+      {
+        "city": "兴城市",
+        "code": "211481",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "兴城市"
+        ]
+      },
+      {
+        "city": "长春市",
+        "code": "220100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "长春市"
+        ]
+      },
+      {
+        "city": "吉林市",
+        "code": "220200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "吉林市",
+          "桦甸市",
+          "舒兰市"
+        ]
+      },
+      {
+        "city": "四平市",
+        "code": "220300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "四平市"
+        ]
+      },
+      {
+        "city": "辽源市",
+        "code": "220400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "辽源市"
+        ]
+      },
+      {
+        "city": "通化市",
+        "code": "220500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "通化市"
+        ]
+      },
+      {
+        "city": "白山市",
+        "code": "220600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "白山市"
+        ]
+      },
+      {
+        "city": "松原市",
+        "code": "220700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "松原市"
+        ]
+      },
+      {
+        "city": "白城市",
+        "code": "220800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "白城市"
+        ]
+      },
+      {
+        "city": "延边朝鲜族自治州",
+        "code": "222400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "延边朝鲜族自治州"
+        ]
+      },
+      {
+        "city": "榆树市",
+        "code": "220181",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "榆树市"
+        ]
+      },
+      {
+        "city": "德惠市",
+        "code": "220182",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "德惠市"
+        ]
+      },
+      {
+        "city": "蛟河市",
+        "code": "220281",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "蛟河市"
+        ]
+      },
+      {
+        "city": "桦甸市",
+        "code": "220282",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "桦甸市"
+        ]
+      },
+      {
+        "city": "舒兰市",
+        "code": "220283",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "舒兰市"
+        ]
+      },
+      {
+        "city": "磐石市",
+        "code": "220284",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "磐石市"
+        ]
+      },
+      {
+        "city": "公主岭市",
+        "code": "220381",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "公主岭市"
+        ]
+      },
+      {
+        "city": "双辽市",
+        "code": "220382",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "双辽市"
+        ]
+      },
+      {
+        "city": "梅河口市",
+        "code": "220581",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "梅河口市"
+        ]
+      },
+      {
+        "city": "集安市",
+        "code": "220582",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "集安市"
+        ]
+      },
+      {
+        "city": "临江市",
+        "code": "220681",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "临江市"
+        ]
+      },
+      {
+        "city": "大安市",
+        "code": "220781",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "大安市"
+        ]
+      },
+      {
+        "city": "洮南市",
+        "code": "220782",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "洮南市"
+        ]
+      },
+      {
+        "city": "延吉市",
+        "code": "222401",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "延吉市"
+        ]
+      },
+      {
+        "city": "图们市",
+        "code": "222402",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "图们市"
+        ]
+      },
+      {
+        "city": "敦化市",
+        "code": "222403",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "敦化市"
+        ]
+      },
+      {
+        "city": "珲春市",
+        "code": "222404",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "珲春市"
+        ]
+      },
+      {
+        "city": "龙井市",
+        "code": "222405",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "龙井市"
+        ]
+      },
+      {
+        "city": "和龙市",
+        "code": "222406",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "和龙市"
+        ]
+      },
+      {
+        "city": "哈尔滨市",
+        "code": "230100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "哈尔滨市"
+        ]
+      },
+      {
+        "city": "齐齐哈尔市",
+        "code": "230200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "齐齐哈尔市"
+        ]
+      },
+      {
+        "city": "鸡西市",
+        "code": "230300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "鸡西市"
+        ]
+      },
+      {
+        "city": "鹤岗市",
+        "code": "230400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "鹤岗市"
+        ]
+      },
+      {
+        "city": "双鸭山市",
+        "code": "230500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "双鸭山市"
+        ]
+      },
+      {
+        "city": "大庆市",
+        "code": "230600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "大庆市"
+        ]
+      },
+      {
+        "city": "伊春市",
+        "code": "230700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "伊春市"
+        ]
+      },
+      {
+        "city": "佳木斯市",
+        "code": "230800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "佳木斯市"
+        ]
+      },
+      {
+        "city": "七台河市",
+        "code": "230900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "七台河市"
+        ]
+      },
+      {
+        "city": "牡丹江市",
+        "code": "231000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "牡丹江市"
+        ]
+      },
+      {
+        "city": "黑河市",
+        "code": "231100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "黑河市"
+        ]
+      },
+      {
+        "city": "绥化市",
+        "code": "231200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "绥化市"
+        ]
+      },
+      {
+        "city": "大兴安岭地区",
+        "code": "232700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "大兴安岭地区"
+        ]
+      },
+      {
+        "city": "尚志市",
+        "code": "230181",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "尚志市"
+        ]
+      },
+      {
+        "city": "双城市",
+        "code": "230182",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "双城市"
+        ]
+      },
+      {
+        "city": "五常市",
+        "code": "230183",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "五常市"
+        ]
+      },
+      {
+        "city": "讷河市",
+        "code": "230281",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "讷河市"
+        ]
+      },
+      {
+        "city": "虎林市",
+        "code": "230381",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "虎林市"
+        ]
+      },
+      {
+        "city": "密山市",
+        "code": "230382",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "密山市"
+        ]
+      },
+      {
+        "city": "铁力市",
+        "code": "230781",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "铁力市"
+        ]
+      },
+      {
+        "city": "同江市",
+        "code": "230881",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "同江市"
+        ]
+      },
+      {
+        "city": "富锦市",
+        "code": "230882",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "富锦市"
+        ]
+      },
+      {
+        "city": "绥芬河市",
+        "code": "231081",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "绥芬河市"
+        ]
+      },
+      {
+        "city": "海林市",
+        "code": "231083",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "海林市"
+        ]
+      },
+      {
+        "city": "宁安市",
+        "code": "231084",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "宁安市"
+        ]
+      },
+      {
+        "city": "穆棱市",
+        "code": "231085",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "穆棱市"
+        ]
+      },
+      {
+        "city": "北安市",
+        "code": "231181",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "北安市"
+        ]
+      },
+      {
+        "city": "五大连池市",
+        "code": "231182",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "五大连池市",
+          "大连市",
+          "黑河市"
+        ]
+      },
+      {
+        "city": "肇东市",
+        "code": "231281",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "肇东市"
+        ]
+      },
+      {
+        "city": "海伦市",
+        "code": "231282",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "海伦市"
+        ]
+      },
+      {
+        "city": "安达市",
+        "code": "231283",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "安达市"
+        ]
+      },
+      {
+        "city": "南京市",
+        "code": "320100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "南京市"
+        ]
+      },
+      {
+        "city": "无锡市",
+        "code": "320200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "无锡市"
+        ]
+      },
+      {
+        "city": "徐州市",
+        "code": "320300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "徐州市"
+        ]
+      },
+      {
+        "city": "常州市",
+        "code": "320400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "常州市"
+        ]
+      },
+      {
+        "city": "苏州市",
+        "code": "320500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "苏州市"
+        ]
+      },
+      {
+        "city": "南通市",
+        "code": "320600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "南通市"
+        ]
+      },
+      {
+        "city": "连云港市",
+        "code": "320700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "连云港市"
+        ]
+      },
+      {
+        "city": "淮安市",
+        "code": "320800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "淮安市"
+        ]
+      },
+      {
+        "city": "盐城市",
+        "code": "320900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "盐城市"
+        ]
+      },
+      {
+        "city": "扬州市",
+        "code": "321000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "扬州市"
+        ]
+      },
+      {
+        "city": "镇江市",
+        "code": "321100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "镇江市"
+        ]
+      },
+      {
+        "city": "泰州市",
+        "code": "321200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "泰州市"
+        ]
+      },
+      {
+        "city": "宿迁市",
+        "code": "321300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "宿迁市"
+        ]
+      },
+      {
+        "city": "江阴市",
+        "code": "320281",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "江阴市"
+        ]
+      },
+      {
+        "city": "宜兴市",
+        "code": "320282",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "宜兴市"
+        ]
+      },
+      {
+        "city": "邳州市",
+        "code": "320381",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "邳州市"
+        ]
+      },
+      {
+        "city": "新沂市",
+        "code": "320382",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "新沂市"
+        ]
+      },
+      {
+        "city": "金坛市",
+        "code": "320481",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "金坛市"
+        ]
+      },
+      {
+        "city": "溧阳市",
+        "code": "320482",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "溧阳市"
+        ]
+      },
+      {
+        "city": "常熟市",
+        "code": "320581",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "常熟市"
+        ]
+      },
+      {
+        "city": "张家港市",
+        "code": "320582",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "张家港市"
+        ]
+      },
+      {
+        "city": "昆山市",
+        "code": "320583",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "昆山市"
+        ]
+      },
+      {
+        "city": "吴江市",
+        "code": "320584",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "吴江市"
+        ]
+      },
+      {
+        "city": "太仓市",
+        "code": "320585",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "太仓市"
+        ]
+      },
+      {
+        "city": "如皋市",
+        "code": "320681",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "如皋市"
+        ]
+      },
+      {
+        "city": "通州市",
+        "code": "320682",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "通州市"
+        ]
+      },
+      {
+        "city": "海门市",
+        "code": "320683",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "海门市"
+        ]
+      },
+      {
+        "city": "启东市",
+        "code": "320684",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "启东市"
+        ]
+      },
+      {
+        "city": "东台市",
+        "code": "320981",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "东台市"
+        ]
+      },
+      {
+        "city": "大丰市",
+        "code": "320982",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "大丰市"
+        ]
+      },
+      {
+        "city": "高邮市",
+        "code": "321081",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "高邮市"
+        ]
+      },
+      {
+        "city": "江都市",
+        "code": "321084",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "江都市"
+        ]
+      },
+      {
+        "city": "仪征市",
+        "code": "321088",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "仪征市"
+        ]
+      },
+      {
+        "city": "丹阳市",
+        "code": "321181",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "丹阳市"
+        ]
+      },
+      {
+        "city": "扬中市",
+        "code": "321182",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "扬中市"
+        ]
+      },
+      {
+        "city": "句容市",
+        "code": "321183",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "句容市"
+        ]
+      },
+      {
+        "city": "兴化市",
+        "code": "321281",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "兴化市"
+        ]
+      },
+      {
+        "city": "靖江市",
+        "code": "321282",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "靖江市"
+        ]
+      },
+      {
+        "city": "泰兴市",
+        "code": "321283",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "泰兴市"
+        ]
+      },
+      {
+        "city": "姜堰市",
+        "code": "321284",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "姜堰市"
+        ]
+      },
+      {
+        "city": "沭阳市",
+        "code": "321381",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "沭阳市"
+        ]
+      },
+      {
+        "city": "泗阳市",
+        "code": "321382",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "泗阳市"
+        ]
+      },
+      {
+        "city": "泗洪市",
+        "code": "321383",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "泗洪市"
+        ]
+      },
+      {
+        "city": "杭州市",
+        "code": "330100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "杭州市"
+        ]
+      },
+      {
+        "city": "宁波市",
+        "code": "330200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "宁波市"
+        ]
+      },
+      {
+        "city": "温州市",
+        "code": "330300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "温州市"
+        ]
+      },
+      {
+        "city": "嘉兴市",
+        "code": "330400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "嘉兴市"
+        ]
+      },
+      {
+        "city": "湖州市",
+        "code": "330500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "湖州市"
+        ]
+      },
+      {
+        "city": "绍兴市",
+        "code": "330600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "绍兴市"
+        ]
+      },
+      {
+        "city": "金华市",
+        "code": "330700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "金华市"
+        ]
+      },
+      {
+        "city": "衢州市",
+        "code": "330800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "衢州市"
+        ]
+      },
+      {
+        "city": "舟山市",
+        "code": "330900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "舟山市"
+        ]
+      },
+      {
+        "city": "台州市",
+        "code": "331000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "台州市"
+        ]
+      },
+      {
+        "city": "丽水市",
+        "code": "331100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "丽水市"
+        ]
+      },
+      {
+        "city": "建德市",
+        "code": "330182",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "建德市"
+        ]
+      },
+      {
+        "city": "富阳市",
+        "code": "330183",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "富阳市"
+        ]
+      },
+      {
+        "city": "临安市",
+        "code": "330185",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "临安市"
+        ]
+      },
+      {
+        "city": "余姚市",
+        "code": "330281",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "余姚市"
+        ]
+      },
+      {
+        "city": "慈溪市",
+        "code": "330282",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "慈溪市"
+        ]
+      },
+      {
+        "city": "奉化市",
+        "code": "330283",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "奉化市"
+        ]
+      },
+      {
+        "city": "瑞安市",
+        "code": "330381",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "瑞安市"
+        ]
+      },
+      {
+        "city": "乐清市",
+        "code": "330382",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "乐清市"
+        ]
+      },
+      {
+        "city": "海宁市",
+        "code": "330481",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "海宁市"
+        ]
+      },
+      {
+        "city": "平湖市",
+        "code": "330482",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "平湖市"
+        ]
+      },
+      {
+        "city": "桐乡市",
+        "code": "330483",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "桐乡市"
+        ]
+      },
+      {
+        "city": "诸暨市",
+        "code": "330681",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "诸暨市"
+        ]
+      },
+      {
+        "city": "上虞市",
+        "code": "330682",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "上虞市"
+        ]
+      },
+      {
+        "city": "嵊州市",
+        "code": "330683",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "嵊州市"
+        ]
+      },
+      {
+        "city": "兰溪市",
+        "code": "330781",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "兰溪市"
+        ]
+      },
+      {
+        "city": "义乌市",
+        "code": "330782",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "义乌市"
+        ]
+      },
+      {
+        "city": "东阳市",
+        "code": "330783",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "东阳市"
+        ]
+      },
+      {
+        "city": "永康市",
+        "code": "330784",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "永康市"
+        ]
+      },
+      {
+        "city": "江山市",
+        "code": "330881",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "江山市"
+        ]
+      },
+      {
+        "city": "临海市",
+        "code": "331081",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "临海市"
+        ]
+      },
+      {
+        "city": "温岭市",
+        "code": "331082",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "温岭市"
+        ]
+      },
+      {
+        "city": "龙泉市",
+        "code": "331181",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "龙泉市"
+        ]
+      },
+      {
+        "city": "合肥市",
+        "code": "340100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "合肥市"
+        ]
+      },
+      {
+        "city": "芜湖市",
+        "code": "340200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "芜湖市"
+        ]
+      },
+      {
+        "city": "蚌埠市",
+        "code": "340300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "蚌埠市"
+        ]
+      },
+      {
+        "city": "淮南市",
+        "code": "340400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "淮南市"
+        ]
+      },
+      {
+        "city": "马鞍山市",
+        "code": "340500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "马鞍山市",
+          "鞍山市"
+        ]
+      },
+      {
+        "city": "淮北市",
+        "code": "340600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "淮北市"
+        ]
+      },
+      {
+        "city": "铜陵市",
+        "code": "340700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "铜陵市"
+        ]
+      },
+      {
+        "city": "安庆市",
+        "code": "340800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "安庆市"
+        ]
+      },
+      {
+        "city": "黄山市",
+        "code": "341000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "黄山市"
+        ]
+      },
+      {
+        "city": "滁州市",
+        "code": "341100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "滁州市"
+        ]
+      },
+      {
+        "city": "阜阳市",
+        "code": "341200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "阜阳市"
+        ]
+      },
+      {
+        "city": "宿州市",
+        "code": "341300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "宿州市"
+        ]
+      },
+      {
+        "city": "六安市",
+        "code": "341500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "六安市"
+        ]
+      },
+      {
+        "city": "亳州市",
+        "code": "341600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "亳州市"
+        ]
+      },
+      {
+        "city": "池州市",
+        "code": "341700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "池州市"
+        ]
+      },
+      {
+        "city": "宣城市",
+        "code": "341800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "宣城市"
+        ]
+      },
+      {
+        "city": "巢湖市",
+        "code": "340181",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "巢湖市"
+        ]
+      },
+      {
+        "city": "桐城市",
+        "code": "340881",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "桐城市"
+        ]
+      },
+      {
+        "city": "天长市",
+        "code": "341181",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "天长市"
+        ]
+      },
+      {
+        "city": "明光市",
+        "code": "341182",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "明光市"
+        ]
+      },
+      {
+        "city": "界首市",
+        "code": "341282",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "界首市"
+        ]
+      },
+      {
+        "city": "宁国市",
+        "code": "341881",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "宁国市"
+        ]
+      },
+      {
+        "city": "广德市",
+        "code": "341882",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "广德市"
+        ]
+      },
+      {
+        "city": "福州市",
+        "code": "350100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "福州市"
+        ]
+      },
+      {
+        "city": "厦门市",
+        "code": "350200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "厦门市"
+        ]
+      },
+      {
+        "city": "莆田市",
+        "code": "350300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "莆田市"
+        ]
+      },
+      {
+        "city": "三明市",
+        "code": "350400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "三明市"
+        ]
+      },
+      {
+        "city": "泉州市",
+        "code": "350500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "泉州市"
+        ]
+      },
+      {
+        "city": "漳州市",
+        "code": "350600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "漳州市"
+        ]
+      },
+      {
+        "city": "南平市",
+        "code": "350700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "南平市"
+        ]
+      },
+      {
+        "city": "龙岩市",
+        "code": "350800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "龙岩市"
+        ]
+      },
+      {
+        "city": "宁德市",
+        "code": "350900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "宁德市"
+        ]
+      },
+      {
+        "city": "福清市",
+        "code": "350181",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "福清市"
+        ]
+      },
+      {
+        "city": "长乐市",
+        "code": "350182",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "长乐市"
+        ]
+      },
+      {
+        "city": "永安市",
+        "code": "350481",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "永安市"
+        ]
+      },
+      {
+        "city": "石狮市",
+        "code": "350581",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "石狮市"
+        ]
+      },
+      {
+        "city": "晋江市",
+        "code": "350582",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "晋江市"
+        ]
+      },
+      {
+        "city": "南安市",
+        "code": "350583",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "南安市"
+        ]
+      },
+      {
+        "city": "龙海市",
+        "code": "350681",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "龙海市"
+        ]
+      },
+      {
+        "city": "邵武市",
+        "code": "350781",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "邵武市"
+        ]
+      },
+      {
+        "city": "武夷山市",
+        "code": "350782",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "武夷山市",
+          "南平市"
+        ]
+      },
+      {
+        "city": "建瓯市",
+        "code": "350783",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "建瓯市"
+        ]
+      },
+      {
+        "city": "建阳市",
+        "code": "350784",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "建阳市"
+        ]
+      },
+      {
+        "city": "漳平市",
+        "code": "350881",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "漳平市"
+        ]
+      },
+      {
+        "city": "福安市",
+        "code": "350981",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "福安市"
+        ]
+      },
+      {
+        "city": "福鼎市",
+        "code": "350982",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "福鼎市"
+        ]
+      },
+      {
+        "city": "南昌市",
+        "code": "360100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "南昌市"
+        ]
+      },
+      {
+        "city": "景德镇市",
+        "code": "360200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "景德镇市"
+        ]
+      },
+      {
+        "city": "萍乡市",
+        "code": "360300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "萍乡市"
+        ]
+      },
+      {
+        "city": "九江市",
+        "code": "360400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "九江市"
+        ]
+      },
+      {
+        "city": "新余市",
+        "code": "360500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "新余市"
+        ]
+      },
+      {
+        "city": "鹰潭市",
+        "code": "360600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "鹰潭市"
+        ]
+      },
+      {
+        "city": "赣州市",
+        "code": "360700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "赣州市"
+        ]
+      },
+      {
+        "city": "吉安市",
+        "code": "360800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "吉安市"
+        ]
+      },
+      {
+        "city": "宜春市",
+        "code": "360900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "宜春市"
+        ]
+      },
+      {
+        "city": "抚州市",
+        "code": "361000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "抚州市"
+        ]
+      },
+      {
+        "city": "上饶市",
+        "code": "361100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "上饶市"
+        ]
+      },
+      {
+        "city": "乐平市",
+        "code": "360281",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "乐平市"
+        ]
+      },
+      {
+        "city": "瑞昌市",
+        "code": "360481",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "瑞昌市"
+        ]
+      },
+      {
+        "city": "共青城市",
+        "code": "360482",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "共青城市"
+        ]
+      },
+      {
+        "city": "贵溪市",
+        "code": "360681",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "贵溪市"
+        ]
+      },
+      {
+        "city": "瑞金市",
+        "code": "360781",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "瑞金市"
+        ]
+      },
+      {
+        "city": "南康市",
+        "code": "360782",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "南康市"
+        ]
+      },
+      {
+        "city": "井冈山市",
+        "code": "360881",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "井冈山市",
+          "吉安市"
+        ]
+      },
+      {
+        "city": "丰城市",
+        "code": "360981",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "丰城市"
+        ]
+      },
+      {
+        "city": "樟树市",
+        "code": "360982",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "樟树市"
+        ]
+      },
+      {
+        "city": "高安市",
+        "code": "360983",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "高安市"
+        ]
+      },
+      {
+        "city": "德兴市",
+        "code": "361181",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "德兴市"
+        ]
+      },
+      {
+        "city": "济南市",
+        "code": "370100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "济南市"
+        ]
+      },
+      {
+        "city": "青岛市",
+        "code": "370200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "青岛市"
+        ]
+      },
+      {
+        "city": "淄博市",
+        "code": "370300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "淄博市"
+        ]
+      },
+      {
+        "city": "枣庄市",
+        "code": "370400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "枣庄市"
+        ]
+      },
+      {
+        "city": "东营市",
+        "code": "370500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "东营市"
+        ]
+      },
+      {
+        "city": "烟台市",
+        "code": "370600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "烟台市"
+        ]
+      },
+      {
+        "city": "潍坊市",
+        "code": "370700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "潍坊市"
+        ]
+      },
+      {
+        "city": "济宁市",
+        "code": "370800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "济宁市"
+        ]
+      },
+      {
+        "city": "泰安市",
+        "code": "370900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "泰安市"
+        ]
+      },
+      {
+        "city": "威海市",
+        "code": "371000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "威海市"
+        ]
+      },
+      {
+        "city": "日照市",
+        "code": "371100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "日照市"
+        ]
+      },
+      {
+        "city": "莱芜市",
+        "code": "371200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "莱芜市"
+        ]
+      },
+      {
+        "city": "临沂市",
+        "code": "371300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "临沂市"
+        ]
+      },
+      {
+        "city": "德州市",
+        "code": "371400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "德州市"
+        ]
+      },
+      {
+        "city": "聊城市",
+        "code": "371500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "聊城市"
+        ]
+      },
+      {
+        "city": "滨州市",
+        "code": "371600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "滨州市"
+        ]
+      },
+      {
+        "city": "菏泽市",
+        "code": "371700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "菏泽市"
+        ]
+      },
+      {
+        "city": "章丘市",
+        "code": "370181",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "章丘市"
+        ]
+      },
+      {
+        "city": "胶南市",
+        "code": "370281",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "胶南市"
+        ]
+      },
+      {
+        "city": "胶州市",
+        "code": "370282",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "胶州市"
+        ]
+      },
+      {
+        "city": "平度市",
+        "code": "370283",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "平度市"
+        ]
+      },
+      {
+        "city": "莱西市",
+        "code": "370284",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "莱西市"
+        ]
+      },
+      {
+        "city": "即墨市",
+        "code": "370285",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "即墨市"
+        ]
+      },
+      {
+        "city": "滕州市",
+        "code": "370481",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "滕州市"
+        ]
+      },
+      {
+        "city": "龙口市",
+        "code": "370681",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "龙口市"
+        ]
+      },
+      {
+        "city": "莱阳市",
+        "code": "370682",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "莱阳市"
+        ]
+      },
+      {
+        "city": "莱州市",
+        "code": "370683",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "莱州市"
+        ]
+      },
+      {
+        "city": "招远市",
+        "code": "370684",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "招远市"
+        ]
+      },
+      {
+        "city": "蓬莱市",
+        "code": "370685",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "蓬莱市"
+        ]
+      },
+      {
+        "city": "栖霞市",
+        "code": "370686",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "栖霞市"
+        ]
+      },
+      {
+        "city": "海阳市",
+        "code": "370687",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "海阳市"
+        ]
+      },
+      {
+        "city": "青州市",
+        "code": "370781",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "青州市"
+        ]
+      },
+      {
+        "city": "诸城市",
+        "code": "370782",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "诸城市"
+        ]
+      },
+      {
+        "city": "寿光市",
+        "code": "370783",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "寿光市"
+        ]
+      },
+      {
+        "city": "安丘市",
+        "code": "370784",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "安丘市"
+        ]
+      },
+      {
+        "city": "高密市",
+        "code": "370785",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "高密市"
+        ]
+      },
+      {
+        "city": "昌邑市",
+        "code": "370786",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "昌邑市"
+        ]
+      },
+      {
+        "city": "曲阜市",
+        "code": "370881",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "曲阜市",
+          "济宁市"
+        ]
+      },
+      {
+        "city": "兖州市",
+        "code": "370882",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "兖州市"
+        ]
+      },
+      {
+        "city": "邹城市",
+        "code": "370883",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "邹城市"
+        ]
+      },
+      {
+        "city": "新泰市",
+        "code": "370982",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "新泰市"
+        ]
+      },
+      {
+        "city": "肥城市",
+        "code": "370983",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "肥城市"
+        ]
+      },
+      {
+        "city": "乳山市",
+        "code": "371082",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "乳山市"
+        ]
+      },
+      {
+        "city": "文登市",
+        "code": "371083",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "文登市"
+        ]
+      },
+      {
+        "city": "荣成市",
+        "code": "371084",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "荣成市"
+        ]
+      },
+      {
+        "city": "乐陵市",
+        "code": "371481",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "乐陵市"
+        ]
+      },
+      {
+        "city": "禹城市",
+        "code": "371482",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "禹城市"
+        ]
+      },
+      {
+        "city": "临清市",
+        "code": "371581",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "临清市"
+        ]
+      },
+      {
+        "city": "邹平市",
+        "code": "371681",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "邹平市"
+        ]
+      },
+      {
+        "city": "郑州市",
+        "code": "410100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "郑州市"
+        ]
+      },
+      {
+        "city": "开封市",
+        "code": "410200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "开封市"
+        ]
+      },
+      {
+        "city": "洛阳市",
+        "code": "410300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "洛阳市"
+        ]
+      },
+      {
+        "city": "平顶山市",
+        "code": "410400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "平顶山市"
+        ]
+      },
+      {
+        "city": "安阳市",
+        "code": "410500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "安阳市"
+        ]
+      },
+      {
+        "city": "鹤壁市",
+        "code": "410600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "鹤壁市"
+        ]
+      },
+      {
+        "city": "新乡市",
+        "code": "410700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "新乡市"
+        ]
+      },
+      {
+        "city": "焦作市",
+        "code": "410800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "焦作市"
+        ]
+      },
+      {
+        "city": "濮阳市",
+        "code": "410900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "濮阳市"
+        ]
+      },
+      {
+        "city": "许昌市",
+        "code": "411000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "许昌市"
+        ]
+      },
+      {
+        "city": "漯河市",
+        "code": "411100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "漯河市"
+        ]
+      },
+      {
+        "city": "南阳市",
+        "code": "411300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "南阳市"
+        ]
+      },
+      {
+        "city": "商丘市",
+        "code": "411400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "商丘市"
+        ]
+      },
+      {
+        "city": "周口市",
+        "code": "411600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "周口市"
+        ]
+      },
+      {
+        "city": "驻马店市",
+        "code": "411700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "驻马店市"
+        ]
+      },
+      {
+        "city": "济源市",
+        "code": "419001",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "济源市"
+        ]
+      },
+      {
+        "city": "荥阳市",
+        "code": "410182",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "荥阳市"
+        ]
+      },
+      {
+        "city": "新郑市",
+        "code": "410184",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "新郑市"
+        ]
+      },
+      {
+        "city": "登封市",
+        "code": "410185",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "登封市"
+        ]
+      },
+      {
+        "city": "新密市",
+        "code": "410183",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "新密市"
+        ]
+      },
+      {
+        "city": "偃师市",
+        "code": "410307",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "偃师市"
+        ]
+      },
+      {
+        "city": "汝州市",
+        "code": "410482",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "汝州市"
+        ]
+      },
+      {
+        "city": "舞钢市",
+        "code": "410481",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "舞钢市"
+        ]
+      },
+      {
+        "city": "林州市",
+        "code": "410581",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "林州市"
+        ]
+      },
+      {
+        "city": "卫辉市",
+        "code": "410781",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "卫辉市"
+        ]
+      },
+      {
+        "city": "沁阳市",
+        "code": "410882",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "沁阳市"
+        ]
+      },
+      {
+        "city": "孟州市",
+        "code": "410883",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "孟州市"
+        ]
+      },
+      {
+        "city": "禹州市",
+        "code": "411081",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "禹州市"
+        ]
+      },
+      {
+        "city": "长葛市",
+        "code": "411082",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "长葛市"
+        ]
+      },
+      {
+        "city": "舞阳市",
+        "code": "411121",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "舞阳市"
+        ]
+      },
+      {
+        "city": "义马市",
+        "code": "411281",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "义马市"
+        ]
+      },
+      {
+        "city": "邓州市",
+        "code": "411381",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "邓州市"
+        ]
+      },
+      {
+        "city": "永城市",
+        "code": "411481",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "永城市"
+        ]
+      },
+      {
+        "city": "项城市",
+        "code": "411681",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "项城市"
+        ]
+      },
+      {
+        "city": "武汉市",
+        "code": "420100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "武汉市"
+        ]
+      },
+      {
+        "city": "黄石市",
+        "code": "420200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "黄石市"
+        ]
+      },
+      {
+        "city": "十堰市",
+        "code": "420300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "十堰市"
+        ]
+      },
+      {
+        "city": "宜昌市",
+        "code": "420500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "宜昌市"
+        ]
+      },
+      {
+        "city": "襄阳市",
+        "code": "420600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "襄阳市"
+        ]
+      },
+      {
+        "city": "鄂州市",
+        "code": "420700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "鄂州市"
+        ]
+      },
+      {
+        "city": "荆门市",
+        "code": "420800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "荆门市"
+        ]
+      },
+      {
+        "city": "孝感市",
+        "code": "420900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "孝感市"
+        ]
+      },
+      {
+        "city": "荆州市",
+        "code": "421000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "荆州市"
+        ]
+      },
+      {
+        "city": "黄冈市",
+        "code": "421100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "黄冈市"
+        ]
+      },
+      {
+        "city": "随州市",
+        "code": "421300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "随州市"
+        ]
+      },
+      {
+        "city": "恩施土家族苗族自治州",
+        "code": "422800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "恩施土家族苗族自治州"
+        ]
+      },
+      {
+        "city": "仙桃市",
+        "code": "429004",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "仙桃市"
+        ]
+      },
+      {
+        "city": "潜江市",
+        "code": "429005",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "潜江市"
+        ]
+      },
+      {
+        "city": "天门市",
+        "code": "429006",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "天门市"
+        ]
+      },
+      {
+        "city": "神农架林区",
+        "code": "429021",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "神农架林区"
+        ]
+      },
+      {
+        "city": "丹江口市",
+        "code": "420381",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "丹江口市"
+        ]
+      },
+      {
+        "city": "宜都市",
+        "code": "420581",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "宜都市"
+        ]
+      },
+      {
+        "city": "枝江市",
+        "code": "420583",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "枝江市"
+        ]
+      },
+      {
+        "city": "老河口市",
+        "code": "420682",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "老河口市"
+        ]
+      },
+      {
+        "city": "枣阳市",
+        "code": "420683",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "枣阳市"
+        ]
+      },
+      {
+        "city": "宜城市",
+        "code": "420684",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "宜城市"
+        ]
+      },
+      {
+        "city": "钟祥市",
+        "code": "420881",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "钟祥市"
+        ]
+      },
+      {
+        "city": "应城市",
+        "code": "420981",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "应城市"
+        ]
+      },
+      {
+        "city": "汉川市",
+        "code": "420984",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "汉川市"
+        ]
+      },
+      {
+        "city": "石首市",
+        "code": "421081",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "石首市"
+        ]
+      },
+      {
+        "city": "洪湖市",
+        "code": "421083",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "洪湖市"
+        ]
+      },
+      {
+        "city": "松滋市",
+        "code": "421087",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "松滋市"
+        ]
+      },
+      {
+        "city": "麻城市",
+        "code": "421181",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "麻城市"
+        ]
+      },
+      {
+        "city": "武穴市",
+        "code": "421182",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "武穴市"
+        ]
+      },
+      {
+        "city": "赤壁市",
+        "code": "421281",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "赤壁市"
+        ]
+      },
+      {
+        "city": "广水市",
+        "code": "421381",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "广水市"
+        ]
+      },
+      {
+        "city": "利川市",
+        "code": "422802",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "利川市"
+        ]
+      },
+      {
+        "city": "长沙市",
+        "code": "430100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "长沙市"
+        ]
+      },
+      {
+        "city": "株洲市",
+        "code": "430200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "株洲市"
+        ]
+      },
+      {
+        "city": "湘潭市",
+        "code": "430300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "湘潭市"
+        ]
+      },
+      {
+        "city": "衡阳市",
+        "code": "430400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "衡阳市"
+        ]
+      },
+      {
+        "city": "邵阳市",
+        "code": "430500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "邵阳市"
+        ]
+      },
+      {
+        "city": "岳阳市",
+        "code": "430600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "岳阳市"
+        ]
+      },
+      {
+        "city": "常德市",
+        "code": "430700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "常德市"
+        ]
+      },
+      {
+        "city": "张家界市",
+        "code": "430800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "张家界市"
+        ]
+      },
+      {
+        "city": "益阳市",
+        "code": "430900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "益阳市"
+        ]
+      },
+      {
+        "city": "郴州市",
+        "code": "431000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "郴州市"
+        ]
+      },
+      {
+        "city": "永州市",
+        "code": "431100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "永州市"
+        ]
+      },
+      {
+        "city": "怀化市",
+        "code": "431200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "怀化市"
+        ]
+      },
+      {
+        "city": "娄底市",
+        "code": "431300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "娄底市"
+        ]
+      },
+      {
+        "city": "湘西土家族苗族自治州",
+        "code": "433100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "湘西土家族苗族自治州"
+        ]
+      },
+      {
+        "city": "浏阳市",
+        "code": "430181",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "浏阳市"
+        ]
+      },
+      {
+        "city": "湘乡市",
+        "code": "430381",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "湘乡市"
+        ]
+      },
+      {
+        "city": "韶山市",
+        "code": "430382",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "韶山市"
+        ]
+      },
+      {
+        "city": "耒阳市",
+        "code": "430481",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "耒阳市"
+        ]
+      },
+      {
+        "city": "常宁市",
+        "code": "430482",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "常宁市"
+        ]
+      },
+      {
+        "city": "武冈市",
+        "code": "430581",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "武冈市"
+        ]
+      },
+      {
+        "city": "临湘市",
+        "code": "430682",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "临湘市"
+        ]
+      },
+      {
+        "city": "津市市",
+        "code": "430781",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "津市市"
+        ]
+      },
+      {
+        "city": "沅江市",
+        "code": "430981",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "沅江市"
+        ]
+      },
+      {
+        "city": "资兴市",
+        "code": "431081",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "资兴市"
+        ]
+      },
+      {
+        "city": "洪江市",
+        "code": "431281",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "洪江市"
+        ]
+      },
+      {
+        "city": "冷水江市",
+        "code": "431381",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "冷水江市"
+        ]
+      },
+      {
+        "city": "涟源市",
+        "code": "431382",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "涟源市"
+        ]
+      },
+      {
+        "city": "吉首市",
+        "code": "433101",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "吉首市"
+        ]
+      },
+      {
+        "city": "广州市",
+        "code": "440100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "广州市"
+        ]
+      },
+      {
+        "city": "韶关市",
+        "code": "440200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "韶关市"
+        ]
+      },
+      {
+        "city": "深圳市",
+        "code": "440300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "深圳市"
+        ]
+      },
+      {
+        "city": "珠海市",
+        "code": "440400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "珠海市"
+        ]
+      },
+      {
+        "city": "汕头市",
+        "code": "440500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "汕头市"
+        ]
+      },
+      {
+        "city": "佛山市",
+        "code": "440600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "佛山市"
+        ]
+      },
+      {
+        "city": "江门市",
+        "code": "440700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "江门市"
+        ]
+      },
+      {
+        "city": "湛江市",
+        "code": "440800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "湛江市"
+        ]
+      },
+      {
+        "city": "茂名市",
+        "code": "440900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "茂名市"
+        ]
+      },
+      {
+        "city": "惠州市",
+        "code": "441300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "惠州市"
+        ]
+      },
+      {
+        "city": "梅州市",
+        "code": "441400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "梅州市"
+        ]
+      },
+      {
+        "city": "河源市",
+        "code": "441600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "河源市"
+        ]
+      },
+      {
+        "city": "阳江市",
+        "code": "441700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "阳江市"
+        ]
+      },
+      {
+        "city": "清远市",
+        "code": "441800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "清远市"
+        ]
+      },
+      {
+        "city": "东莞市",
+        "code": "441900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "东莞市"
+        ]
+      },
+      {
+        "city": "中山市",
+        "code": "442000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "中山市"
+        ]
+      },
+      {
+        "city": "潮州市",
+        "code": "445100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "潮州市"
+        ]
+      },
+      {
+        "city": "揭阳市",
+        "code": "445200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "揭阳市"
+        ]
+      },
+      {
+        "city": "云浮市",
+        "code": "445300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "云浮市"
+        ]
+      },
+      {
+        "city": "英德市",
+        "code": "441881",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "英德市"
+        ]
+      },
+      {
+        "city": "连州市",
+        "code": "441882",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "连州市"
+        ]
+      },
+      {
+        "city": "台山市",
+        "code": "440781",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "台山市"
+        ]
+      },
+      {
+        "city": "开平市",
+        "code": "440783",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "开平市"
+        ]
+      },
+      {
+        "city": "恩平市",
+        "code": "440785",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "恩平市"
+        ]
+      },
+      {
+        "city": "廉江市",
+        "code": "440881",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "廉江市"
+        ]
+      },
+      {
+        "city": "雷州市",
+        "code": "440882",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "雷州市"
+        ]
+      },
+      {
+        "city": "吴川市",
+        "code": "440883",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "吴川市"
+        ]
+      },
+      {
+        "city": "高州市",
+        "code": "440981",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "高州市"
+        ]
+      },
+      {
+        "city": "化州市",
+        "code": "440982",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "化州市"
+        ]
+      },
+      {
+        "city": "信宜市",
+        "code": "440983",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "信宜市"
+        ]
+      },
+      {
+        "city": "高要市",
+        "code": "441204",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "高要市"
+        ]
+      },
+      {
+        "city": "四会市",
+        "code": "441284",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "四会市"
+        ]
+      },
+      {
+        "city": "博罗市",
+        "code": "441322",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "博罗市"
+        ]
+      },
+      {
+        "city": "惠东市",
+        "code": "441323",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "惠东市"
+        ]
+      },
+      {
+        "city": "陆丰市",
+        "code": "441581",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "陆丰市"
+        ]
+      },
+      {
+        "city": "兴宁市",
+        "code": "441481",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "兴宁市"
+        ]
+      },
+      {
+        "city": "普宁市",
+        "code": "445281",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "普宁市"
+        ]
+      },
+      {
+        "city": "罗定市",
+        "code": "445381",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "罗定市"
+        ]
+      },
+      {
+        "city": "南宁市",
+        "code": "450100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "南宁市"
+        ]
+      },
+      {
+        "city": "柳州市",
+        "code": "450200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "柳州市"
+        ]
+      },
+      {
+        "city": "桂林市",
+        "code": "450300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "桂林市"
+        ]
+      },
+      {
+        "city": "梧州市",
+        "code": "450400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "梧州市"
+        ]
+      },
+      {
+        "city": "防城港市",
+        "code": "450600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "防城港市"
+        ]
+      },
+      {
+        "city": "钦州市",
+        "code": "450700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "钦州市"
+        ]
+      },
+      {
+        "city": "玉林市",
+        "code": "450900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "玉林市"
+        ]
+      },
+      {
+        "city": "百色市",
+        "code": "451000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "百色市"
+        ]
+      },
+      {
+        "city": "贺州市",
+        "code": "451100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "贺州市"
+        ]
+      },
+      {
+        "city": "河池市",
+        "code": "451200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "河池市"
+        ]
+      },
+      {
+        "city": "来宾市",
+        "code": "451300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "来宾市"
+        ]
+      },
+      {
+        "city": "崇左市",
+        "code": "451400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "崇左市"
+        ]
+      },
+      {
+        "city": "岑溪市",
+        "code": "450481",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "岑溪市"
+        ]
+      },
+      {
+        "city": "东兴市",
+        "code": "450681",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "东兴市"
+        ]
+      },
+      {
+        "city": "桂平市",
+        "code": "450881",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "桂平市"
+        ]
+      },
+      {
+        "city": "宜州市",
+        "code": "451203",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "宜州市"
+        ]
+      },
+      {
+        "city": "合山市",
+        "code": "451381",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "合山市"
+        ]
+      },
+      {
+        "city": "凭祥市",
+        "code": "451481",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "凭祥市"
+        ]
+      },
+      {
+        "city": "海口市",
+        "code": "460100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "海口市"
+        ]
+      },
+      {
+        "city": "三亚市",
+        "code": "460200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "三亚市"
+        ]
+      },
+      {
+        "city": "三沙市",
+        "code": "460300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "三沙市"
+        ]
+      },
+      {
+        "city": "儋州市",
+        "code": "460400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "儋州市"
+        ]
+      },
+      {
+        "city": "五指山市",
+        "code": "469001",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "五指山市"
+        ]
+      },
+      {
+        "city": "琼海市",
+        "code": "469002",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "琼海市"
+        ]
+      },
+      {
+        "city": "文昌市",
+        "code": "469005",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "文昌市"
+        ]
+      },
+      {
+        "city": "万宁市",
+        "code": "469006",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "万宁市"
+        ]
+      },
+      {
+        "city": "东方市",
+        "code": "469007",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "东方市"
+        ]
+      },
+      {
+        "city": "成都市",
+        "code": "510100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "成都市"
+        ]
+      },
+      {
+        "city": "攀枝花市",
+        "code": "510400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "攀枝花市"
+        ]
+      },
+      {
+        "city": "泸州市",
+        "code": "510500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "泸州市"
+        ]
+      },
+      {
+        "city": "德阳市",
+        "code": "510600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "德阳市"
+        ]
+      },
+      {
+        "city": "绵阳市",
+        "code": "510700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "绵阳市"
+        ]
+      },
+      {
+        "city": "广元市",
+        "code": "510800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "广元市"
+        ]
+      },
+      {
+        "city": "遂宁市",
+        "code": "510900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "遂宁市"
+        ]
+      },
+      {
+        "city": "内江市",
+        "code": "511000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "内江市"
+        ]
+      },
+      {
+        "city": "乐山市",
+        "code": "511100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "乐山市"
+        ]
+      },
+      {
+        "city": "南充市",
+        "code": "511300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "南充市"
+        ]
+      },
+      {
+        "city": "宜宾市",
+        "code": "511500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "宜宾市"
+        ]
+      },
+      {
+        "city": "广安市",
+        "code": "511600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "广安市"
+        ]
+      },
+      {
+        "city": "达州市",
+        "code": "511700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "达州市"
+        ]
+      },
+      {
+        "city": "雅安市",
+        "code": "511800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "雅安市"
+        ]
+      },
+      {
+        "city": "巴中市",
+        "code": "511900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "巴中市"
+        ]
+      },
+      {
+        "city": "资阳市",
+        "code": "512000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "资阳市"
+        ]
+      },
+      {
+        "city": "甘孜藏族自治州",
+        "code": "513300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "甘孜藏族自治州"
+        ]
+      },
+      {
+        "city": "凉山彝族自治州",
+        "code": "513400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "凉山彝族自治州"
+        ]
+      },
+      {
+        "city": "彭州市",
+        "code": "510182",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "彭州市"
+        ]
+      },
+      {
+        "city": "邛崃市",
+        "code": "510183",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "邛崃市"
+        ]
+      },
+      {
+        "city": "崇州市",
+        "code": "510184",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "崇州市"
+        ]
+      },
+      {
+        "city": "广汉市",
+        "code": "510681",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "广汉市"
+        ]
+      },
+      {
+        "city": "什邡市",
+        "code": "510682",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "什邡市"
+        ]
+      },
+      {
+        "city": "绵竹市",
+        "code": "510683",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "绵竹市"
+        ]
+      },
+      {
+        "city": "江油市",
+        "code": "510781",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "江油市"
+        ]
+      },
+      {
+        "city": "峨眉山市",
+        "code": "511181",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "峨眉山市",
+          "眉山市"
+        ]
+      },
+      {
+        "city": "阆中市",
+        "code": "511381",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "阆中市"
+        ]
+      },
+      {
+        "city": "万源市",
+        "code": "511781",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "万源市"
+        ]
+      },
+      {
+        "city": "简阳市",
+        "code": "510185",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "简阳市"
+        ]
+      },
+      {
+        "city": "西昌市",
+        "code": "513401",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "西昌市"
+        ]
+      },
+      {
+        "city": "贵阳市",
+        "code": "520100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "贵阳市"
+        ]
+      },
+      {
+        "city": "六盘水市",
+        "code": "520200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "六盘水市"
+        ]
+      },
+      {
+        "city": "遵义市",
+        "code": "520300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "遵义市"
+        ]
+      },
+      {
+        "city": "安顺市",
+        "code": "520400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "安顺市"
+        ]
+      },
+      {
+        "city": "毕节市",
+        "code": "520500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "毕节市"
+        ]
+      },
+      {
+        "city": "黔西南布依族苗族自治州",
+        "code": "522300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "黔西南布依族苗族自治州"
+        ]
+      },
+      {
+        "city": "黔东南苗族侗族自治州",
+        "code": "522600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "黔东南苗族侗族自治州"
+        ]
+      },
+      {
+        "city": "黔南布依族苗族自治州",
+        "code": "522700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "黔南布依族苗族自治州"
+        ]
+      },
+      {
+        "city": "清镇市",
+        "code": "520181",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "清镇市"
+        ]
+      },
+      {
+        "city": "赤水市",
+        "code": "520381",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "赤水市"
+        ]
+      },
+      {
+        "city": "仁怀市",
+        "code": "520382",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "仁怀市"
+        ]
+      },
+      {
+        "city": "凯里市",
+        "code": "522601",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "凯里市"
+        ]
+      },
+      {
+        "city": "都匀市",
+        "code": "522701",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "都匀市"
+        ]
+      },
+      {
+        "city": "兴义市",
+        "code": "522301",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "兴义市"
+        ]
+      },
+      {
+        "city": "福泉市",
+        "code": "522702",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "福泉市"
+        ]
+      },
+      {
+        "city": "昆明市",
+        "code": "530100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "昆明市"
+        ]
+      },
+      {
+        "city": "曲靖市",
+        "code": "530300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "曲靖市"
+        ]
+      },
+      {
+        "city": "玉溪市",
+        "code": "530400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "玉溪市"
+        ]
+      },
+      {
+        "city": "保山市",
+        "code": "530500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "保山市"
+        ]
+      },
+      {
+        "city": "昭通市",
+        "code": "530600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "昭通市"
+        ]
+      },
+      {
+        "city": "丽江市",
+        "code": "530700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "丽江市"
+        ]
+      },
+      {
+        "city": "临沧市",
+        "code": "530900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "临沧市"
+        ]
+      },
+      {
+        "city": "楚雄彝族自治州",
+        "code": "532300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "楚雄彝族自治州"
+        ]
+      },
+      {
+        "city": "红河哈尼族彝族自治州",
+        "code": "532500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "红河哈尼族彝族自治州"
+        ]
+      },
+      {
+        "city": "文山壮族苗族自治州",
+        "code": "532600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "文山壮族苗族自治州"
+        ]
+      },
+      {
+        "city": "西双版纳傣族自治州",
+        "code": "532800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "西双版纳傣族自治州"
+        ]
+      },
+      {
+        "city": "德宏傣族景颇族自治州",
+        "code": "533100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "德宏傣族景颇族自治州"
+        ]
+      },
+      {
+        "city": "怒江傈僳族自治州",
+        "code": "533300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "怒江傈僳族自治州"
+        ]
+      },
+      {
+        "city": "迪庆藏族自治州",
+        "code": "533400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "迪庆藏族自治州"
+        ]
+      },
+      {
+        "city": "安宁市",
+        "code": "530181",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "安宁市"
+        ]
+      },
+      {
+        "city": "宣威市",
+        "code": "530381",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "宣威市"
+        ]
+      },
+      {
+        "city": "个旧市",
+        "code": "532501",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "个旧市"
+        ]
+      },
+      {
+        "city": "开远市",
+        "code": "532502",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "开远市"
+        ]
+      },
+      {
+        "city": "蒙自市",
+        "code": "532503",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "蒙自市"
+        ]
+      },
+      {
+        "city": "弥勒市",
+        "code": "532504",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "弥勒市"
+        ]
+      },
+      {
+        "city": "景洪市",
+        "code": "532801",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "景洪市"
+        ]
+      },
+      {
+        "city": "大理市",
+        "code": "532901",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "大理市"
+        ]
+      },
+      {
+        "city": "瑞丽市",
+        "code": "533102",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "瑞丽市"
+        ]
+      },
+      {
+        "city": "泸水市",
+        "code": "533301",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "泸水市"
+        ]
+      },
+      {
+        "city": "香格里拉市",
+        "code": "533401",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "香格里拉市"
+        ]
+      },
+      {
+        "city": "禄丰市",
+        "code": "532302",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "禄丰市"
+        ]
+      },
+      {
+        "city": "腾冲市",
+        "code": "530581",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "腾冲市"
+        ]
+      },
+      {
+        "city": "拉萨市",
+        "code": "540100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "拉萨市"
+        ]
+      },
+      {
+        "city": "日喀则市",
+        "code": "540200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "日喀则市"
+        ]
+      },
+      {
+        "city": "昌都市",
+        "code": "540300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "昌都市"
+        ]
+      },
+      {
+        "city": "林芝市",
+        "code": "540400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "林芝市"
+        ]
+      },
+      {
+        "city": "山南市",
+        "code": "540500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "山南市"
+        ]
+      },
+      {
+        "city": "那曲市",
+        "code": "540600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "那曲市"
+        ]
+      },
+      {
+        "city": "阿里地区",
+        "code": "542500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "阿里地区"
+        ]
+      },
+      {
+        "city": "西安市",
+        "code": "610100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "西安市"
+        ]
+      },
+      {
+        "city": "铜川市",
+        "code": "610200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "铜川市"
+        ]
+      },
+      {
+        "city": "咸阳市",
+        "code": "610400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "咸阳市"
+        ]
+      },
+      {
+        "city": "渭南市",
+        "code": "610500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "渭南市"
+        ]
+      },
+      {
+        "city": "延安市",
+        "code": "610600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "延安市"
+        ]
+      },
+      {
+        "city": "汉中市",
+        "code": "610700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "汉中市"
+        ]
+      },
+      {
+        "city": "榆林市",
+        "code": "610800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "榆林市"
+        ]
+      },
+      {
+        "city": "安康市",
+        "code": "610900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "安康市"
+        ]
+      },
+      {
+        "city": "商洛市",
+        "code": "611000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "商洛市"
+        ]
+      },
+      {
+        "city": "兴平市",
+        "code": "610481",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "兴平市"
+        ]
+      },
+      {
+        "city": "华阴市",
+        "code": "610582",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "华阴市"
+        ]
+      },
+      {
+        "city": "神木市",
+        "code": "610881",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "神木市"
+        ]
+      },
+      {
+        "city": "府谷市",
+        "code": "610822",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "府谷市"
+        ]
+      },
+      {
+        "city": "兰州市",
+        "code": "620100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "兰州市"
+        ]
+      },
+      {
+        "city": "嘉峪关市",
+        "code": "620200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "嘉峪关市"
+        ]
+      },
+      {
+        "city": "金昌市",
+        "code": "620300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "金昌市"
+        ]
+      },
+      {
+        "city": "白银市",
+        "code": "620400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "白银市"
+        ]
+      },
+      {
+        "city": "天水市",
+        "code": "620500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "天水市"
+        ]
+      },
+      {
+        "city": "武威市",
+        "code": "620600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "武威市"
+        ]
+      },
+      {
+        "city": "张掖市",
+        "code": "620700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "张掖市"
+        ]
+      },
+      {
+        "city": "平凉市",
+        "code": "620800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "平凉市"
+        ]
+      },
+      {
+        "city": "庆阳市",
+        "code": "621000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "庆阳市"
+        ]
+      },
+      {
+        "city": "定西市",
+        "code": "621100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "定西市"
+        ]
+      },
+      {
+        "city": "陇南市",
+        "code": "621200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "陇南市"
+        ]
+      },
+      {
+        "city": "临夏回族自治州",
+        "code": "622900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "临夏回族自治州"
+        ]
+      },
+      {
+        "city": "甘南藏族自治州",
+        "code": "623000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "甘南藏族自治州"
+        ]
+      },
+      {
+        "city": "玉门市",
+        "code": "620981",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "玉门市"
+        ]
+      },
+      {
+        "city": "敦煌市",
+        "code": "620982",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "敦煌市"
+        ]
+      },
+      {
+        "city": "合作市",
+        "code": "623001",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "合作市"
+        ]
+      },
+      {
+        "city": "西宁市",
+        "code": "630100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "西宁市"
+        ]
+      },
+      {
+        "city": "海东市",
+        "code": "630200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "海东市"
+        ]
+      },
+      {
+        "city": "海北藏族自治州",
+        "code": "632200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "海北藏族自治州"
+        ]
+      },
+      {
+        "city": "黄南藏族自治州",
+        "code": "632300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "黄南藏族自治州"
+        ]
+      },
+      {
+        "city": "海南藏族自治州",
+        "code": "632500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "海南藏族自治州",
+          "海口市",
+          "文昌市"
+        ]
+      },
+      {
+        "city": "果洛藏族自治州",
+        "code": "632600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "果洛藏族自治州"
+        ]
+      },
+      {
+        "city": "玉树藏族自治州",
+        "code": "632700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "玉树藏族自治州"
+        ]
+      },
+      {
+        "city": "海西蒙古族藏族自治州",
+        "code": "632800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "海西蒙古族藏族自治州"
+        ]
+      },
+      {
+        "city": "德令哈市",
+        "code": "632802",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "德令哈市"
+        ]
+      },
+      {
+        "city": "茫崖市",
+        "code": "632803",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "茫崖市"
+        ]
+      },
+      {
+        "city": "银川市",
+        "code": "640100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "银川市"
+        ]
+      },
+      {
+        "city": "石嘴山市",
+        "code": "640200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "石嘴山市"
+        ]
+      },
+      {
+        "city": "吴忠市",
+        "code": "640300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "吴忠市"
+        ]
+      },
+      {
+        "city": "固原市",
+        "code": "640400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "固原市"
+        ]
+      },
+      {
+        "city": "中卫市",
+        "code": "640500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "中卫市"
+        ]
+      },
+      {
+        "city": "灵武市",
+        "code": "640181",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "灵武市"
+        ]
+      },
+      {
+        "city": "青铜峡市",
+        "code": "640381",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "青铜峡市"
+        ]
+      },
+      {
+        "city": "乌鲁木齐市",
+        "code": "650100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "乌鲁木齐市"
+        ]
+      },
+      {
+        "city": "克拉玛依市",
+        "code": "650200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "克拉玛依市"
+        ]
+      },
+      {
+        "city": "吐鲁番市",
+        "code": "650400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "吐鲁番市"
+        ]
+      },
+      {
+        "city": "哈密市",
+        "code": "650500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "哈密市"
+        ]
+      },
+      {
+        "city": "昌吉回族自治州",
+        "code": "652300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "昌吉回族自治州"
+        ]
+      },
+      {
+        "city": "博尔塔拉蒙古自治州",
+        "code": "652700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "博尔塔拉蒙古自治州"
+        ]
+      },
+      {
+        "city": "巴音郭楞蒙古自治州",
+        "code": "652800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "巴音郭楞蒙古自治州"
+        ]
+      },
+      {
+        "city": "阿克苏地区",
+        "code": "652900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "阿克苏地区",
+          "阿克苏市"
+        ]
+      },
+      {
+        "city": "克孜勒苏柯尔克孜自治州",
+        "code": "653000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "克孜勒苏柯尔克孜自治州"
+        ]
+      },
+      {
+        "city": "喀什地区",
+        "code": "653100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "喀什地区",
+          "喀什市"
+        ]
+      },
+      {
+        "city": "伊犁哈萨克自治州",
+        "code": "654000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "伊犁哈萨克自治州"
+        ]
+      },
+      {
+        "city": "塔城地区",
+        "code": "654200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "塔城地区",
+          "塔城市"
+        ]
+      },
+      {
+        "city": "阿勒泰地区",
+        "code": "654300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "阿勒泰地区",
+          "阿勒泰市"
+        ]
+      },
+      {
+        "city": "石河子市",
+        "code": "659001",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "石河子市"
+        ]
+      },
+      {
+        "city": "阿拉尔市",
+        "code": "659002",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "阿拉尔市"
+        ]
+      },
+      {
+        "city": "图木舒克市",
+        "code": "659003",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "图木舒克市"
+        ]
+      },
+      {
+        "city": "五家渠市",
+        "code": "659004",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "五家渠市"
+        ]
+      },
+      {
+        "city": "北屯市",
+        "code": "659005",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "北屯市"
+        ]
+      },
+      {
+        "city": "铁门关市",
+        "code": "659006",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "铁门关市"
+        ]
+      },
+      {
+        "city": "双河市",
+        "code": "659007",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "双河市"
+        ]
+      },
+      {
+        "city": "可克达拉市",
+        "code": "659008",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "可克达拉市"
+        ]
+      },
+      {
+        "city": "昆玉市",
+        "code": "659009",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "昆玉市"
+        ]
+      },
+      {
+        "city": "胡杨河市",
+        "code": "659010",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "胡杨河市"
+        ]
+      },
+      {
+        "city": "奎屯市",
+        "code": "654003",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "奎屯市"
+        ]
+      },
+      {
+        "city": "伊宁市",
+        "code": "654002",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "伊宁市"
+        ]
+      },
+      {
+        "city": "阿图什市",
+        "code": "653001",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "阿图什市"
+        ]
+      },
+      {
+        "city": "博乐市",
+        "code": "652701",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "博乐市"
+        ]
+      },
+      {
+        "city": "阜康市",
+        "code": "652302",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "阜康市"
+        ]
+      },
+      {
+        "city": "库尔勒市",
+        "code": "652801",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "库尔勒市"
+        ]
+      },
+      {
+        "city": "喀什市",
+        "code": "653101",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "喀什市"
+        ]
+      },
+      {
+        "city": "和田市",
+        "code": "653201",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "和田市"
+        ]
+      },
+      {
+        "city": "塔城市",
+        "code": "654201",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "塔城市"
+        ]
+      },
+      {
+        "city": "阿勒泰市",
+        "code": "654301",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "阿勒泰市"
+        ]
+      },
+      {
+        "city": "香港",
+        "code": "810000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "香港"
+        ]
+      },
+      {
+        "city": "台北市",
+        "code": "710100",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "台北市"
+        ]
+      },
+      {
+        "city": "新北市",
+        "code": "710300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "新北市"
+        ]
+      },
+      {
+        "city": "桃园市",
+        "code": "710600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "桃园市"
+        ]
+      },
+      {
+        "city": "台中市",
+        "code": "710400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "台中市"
+        ]
+      },
+      {
+        "city": "台南市",
+        "code": "710500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "台南市"
+        ]
+      },
+      {
+        "city": "高雄市",
+        "code": "710200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "高雄市"
+        ]
+      },
+      {
+        "city": "基隆市",
+        "code": "711600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "基隆市"
+        ]
+      },
+      {
+        "city": "新竹市",
+        "code": "711200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "新竹市"
+        ]
+      },
+      {
+        "city": "宜兰市",
+        "code": "711700",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "宜兰市"
+        ]
+      },
+      {
+        "city": "苗栗市",
+        "code": "711112",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "苗栗市"
+        ]
+      },
+      {
+        "city": "彰化市",
+        "code": "711312",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "彰化市"
+        ]
+      },
+      {
+        "city": "南投市",
+        "code": "710900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "南投市"
+        ]
+      },
+      {
+        "city": "云林市",
+        "code": "711400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "云林市"
+        ]
+      },
+      {
+        "city": "嘉义市",
+        "code": "711800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "嘉义市"
+        ]
+      },
+      {
+        "city": "屏东市",
+        "code": "710800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "屏东市"
+        ]
+      },
+      {
+        "city": "台东市",
+        "code": "711500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "台东市"
+        ]
+      },
+      {
+        "city": "澎湖市",
+        "code": "712000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "澎湖市"
+        ]
+      },
+      {
+        "city": "三门峡市",
+        "code": "411200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "三门峡市"
+        ]
+      },
+      {
+        "city": "信阳市",
+        "code": "411500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "信阳市"
+        ]
+      },
+      {
+        "city": "辉县市",
+        "code": "410782",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "辉县市"
+        ]
+      },
+      {
+        "city": "灵宝市",
+        "code": "411282",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "灵宝市"
+        ]
+      },
+      {
+        "city": "咸宁市",
+        "code": "421200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "咸宁市"
+        ]
+      },
+      {
+        "city": "大冶市",
+        "code": "420281",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "大冶市"
+        ]
+      },
+      {
+        "city": "当阳市",
+        "code": "420582",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "当阳市"
+        ]
+      },
+      {
+        "city": "安陆市",
+        "code": "420982",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "安陆市"
+        ]
+      },
+      {
+        "city": "醴陵市",
+        "code": "430281",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "醴陵市"
+        ]
+      },
+      {
+        "city": "汨罗市",
+        "code": "430681",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "汨罗市"
+        ]
+      },
+      {
+        "city": "肇庆市",
+        "code": "441200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "肇庆市"
+        ]
+      },
+      {
+        "city": "汕尾市",
+        "code": "441500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "汕尾市"
+        ]
+      },
+      {
+        "city": "鹤山市",
+        "code": "440784",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "鹤山市"
+        ]
+      },
+      {
+        "city": "北海市",
+        "code": "450500",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "北海市"
+        ]
+      },
+      {
+        "city": "贵港市",
+        "code": "450800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "贵港市"
+        ]
+      },
+      {
+        "city": "北流市",
+        "code": "450981",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "北流市"
+        ]
+      },
+      {
+        "city": "自贡市",
+        "code": "510300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "自贡市"
+        ]
+      },
+      {
+        "city": "眉山市",
+        "code": "511400",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "眉山市"
+        ]
+      },
+      {
+        "city": "阿坝藏族羌族自治州",
+        "code": "513200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "阿坝藏族羌族自治州"
+        ]
+      },
+      {
+        "city": "都江堰市",
+        "code": "510181",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "都江堰市"
+        ]
+      },
+      {
+        "city": "华蓥市",
+        "code": "511681",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "华蓥市"
+        ]
+      },
+      {
+        "city": "铜仁市",
+        "code": "520600",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "铜仁市"
+        ]
+      },
+      {
+        "city": "普洱市",
+        "code": "530800",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "普洱市"
+        ]
+      },
+      {
+        "city": "大理白族自治州",
+        "code": "532900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "大理白族自治州",
+          "大理市"
+        ]
+      },
+      {
+        "city": "芒市",
+        "code": "533103",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "芒市"
+        ]
+      },
+      {
+        "city": "宝鸡市",
+        "code": "610300",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "宝鸡市"
+        ]
+      },
+      {
+        "city": "韩城市",
+        "code": "610581",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "韩城市"
+        ]
+      },
+      {
+        "city": "酒泉市",
+        "code": "620900",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "酒泉市"
+        ]
+      },
+      {
+        "city": "格尔木市",
+        "code": "632801",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "格尔木市"
+        ]
+      },
+      {
+        "city": "和田地区",
+        "code": "653200",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "和田地区",
+          "和田市"
+        ]
+      },
+      {
+        "city": "阿克苏市",
+        "code": "652901",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "阿克苏市"
+        ]
+      },
+      {
+        "city": "澳门",
+        "code": "820000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "澳门"
+        ]
+      },
+      {
+        "city": "花莲市",
+        "code": "711000",
+        "strategy": "location_priority",
+        "top1": true,
+        "top3": true,
+        "got": [
+          "花莲市"
+        ]
+      }
+    ]
+  },
+  "suite_b1": {
+    "passed": 11,
+    "total": 11
+  },
+  "suite_b2": {
+    "passed": 5,
+    "total": 5
+  },
+  "rows_b": [
+    {
+      "suite": "B1",
+      "query": "西安有什么好玩的",
+      "expect": "西安",
+      "strategy": "location_priority",
+      "got": "西安市",
+      "ok": true
+    },
+    {
+      "suite": "B1",
+      "query": "兰州有什么好玩的",
+      "expect": "兰州",
+      "strategy": "location_priority",
+      "got": "兰州市",
+      "ok": true
+    },
+    {
+      "suite": "B1",
+      "query": "洛阳有什么好玩的",
+      "expect": "洛阳",
+      "strategy": "location_priority",
+      "got": "洛阳市",
+      "ok": true
+    },
+    {
+      "suite": "B1",
+      "query": "郑州有什么好玩的",
+      "expect": "郑州",
+      "strategy": "location_priority",
+      "got": "郑州市",
+      "ok": true
+    },
+    {
+      "suite": "B1",
+      "query": "长沙有什么好玩的",
+      "expect": "长沙",
+      "strategy": "location_priority",
+      "got": "长沙市",
+      "ok": true
+    },
+    {
+      "suite": "B1",
+      "query": "拉萨有什么好玩的",
+      "expect": "拉萨",
+      "strategy": "location_priority",
+      "got": "拉萨市",
+      "ok": true
+    },
+    {
+      "suite": "B1",
+      "query": "三亚有什么好玩的",
+      "expect": "三亚",
+      "strategy": "location_priority",
+      "got": "三亚市",
+      "ok": true
+    },
+    {
+      "suite": "B1",
+      "query": "桂林有什么好玩的",
+      "expect": "桂林",
+      "strategy": "location_priority",
+      "got": "桂林市",
+      "ok": true
+    },
+    {
+      "suite": "B1",
+      "query": "长安怎么玩",
+      "expect": "西安",
+      "strategy": "location_priority",
+      "got": "西安市",
+      "ok": true
+    },
+    {
+      "suite": "B1",
+      "query": "星城有什么好玩的",
+      "expect": "长沙",
+      "strategy": "location_priority",
+      "got": "长沙市",
+      "ok": true
+    },
+    {
+      "suite": "B1",
+      "query": "金城有什么好玩的",
+      "expect": "兰州",
+      "strategy": "location_priority",
+      "got": "兰州市",
+      "ok": true
+    },
+    {
+      "suite": "B2",
+      "query": "九寨沟怎么玩",
+      "strategy": "web_fallback",
+      "results": 3,
+      "ok": true
+    },
+    {
+      "suite": "B2",
+      "query": "稻城亚丁值得去吗",
+      "strategy": "web_fallback",
+      "results": 3,
+      "ok": true
+    },
+    {
+      "suite": "B2",
+      "query": "少林寺有什么好玩的",
+      "strategy": "web_fallback",
+      "results": 3,
+      "ok": true
+    },
+    {
+      "suite": "B2",
+      "query": "黄果树怎么玩",
+      "strategy": "web_fallback",
+      "results": 2,
+      "ok": true
+    },
+    {
+      "suite": "B2",
+      "query": "凤凰古城值得去吗",
+      "strategy": "web_fallback",
+      "results": 3,
+      "ok": true
+    }
+  ]
+}

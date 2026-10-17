@@ -1,0 +1,268 @@
+[
+  {
+    "query": "帝都",
+    "expected": "北京",
+    "local_zs": {
+      "out": "北京市",
+      "hit": true,
+      "secs": 16.5
+    },
+    "local_fs": {
+      "out": "北京市",
+      "hit": true,
+      "secs": 3.5
+    },
+    "cloud_zs": {
+      "out": "北京",
+      "hit": true,
+      "secs": 0.7
+    }
+  },
+  {
+    "query": "魔都",
+    "expected": "上海",
+    "local_zs": {
+      "out": "上海",
+      "hit": true,
+      "secs": 2.8
+    },
+    "local_fs": {
+      "out": "上海市",
+      "hit": true,
+      "secs": 3.4
+    },
+    "cloud_zs": {
+      "out": "上海",
+      "hit": true,
+      "secs": 0.5
+    }
+  },
+  {
+    "query": "冰城",
+    "expected": "哈尔滨",
+    "local_zs": {
+      "out": "哈尔滨",
+      "hit": true,
+      "secs": 2.7
+    },
+    "local_fs": {
+      "out": "哈尔滨市",
+      "hit": true,
+      "secs": 3.5
+    },
+    "cloud_zs": {
+      "out": "哈尔滨",
+      "hit": true,
+      "secs": 0.4
+    }
+  },
+  {
+    "query": "泉城",
+    "expected": "济南",
+    "local_zs": {
+      "out": "济南",
+      "hit": true,
+      "secs": 2.8
+    },
+    "local_fs": {
+      "out": "济南市",
+      "hit": true,
+      "secs": 3.4
+    },
+    "cloud_zs": {
+      "out": "济南",
+      "hit": true,
+      "secs": 0.5
+    }
+  },
+  {
+    "query": "姑苏",
+    "expected": "苏州",
+    "local_zs": {
+      "out": "苏州",
+      "hit": true,
+      "secs": 2.7
+    },
+    "local_fs": {
+      "out": "苏州市",
+      "hit": true,
+      "secs": 3.5
+    },
+    "cloud_zs": {
+      "out": "苏州",
+      "hit": true,
+      "secs": 0.4
+    }
+  },
+  {
+    "query": "鹭岛",
+    "expected": "厦门",
+    "local_zs": {
+      "out": "厦门",
+      "hit": true,
+      "secs": 2.7
+    },
+    "local_fs": {
+      "out": "厦门市",
+      "hit": true,
+      "secs": 3.4
+    },
+    "cloud_zs": {
+      "out": "厦门",
+      "hit": true,
+      "secs": 0.9
+    }
+  },
+  {
+    "query": "山城",
+    "expected": "重庆",
+    "local_zs": {
+      "out": "重庆",
+      "hit": true,
+      "secs": 2.8
+    },
+    "local_fs": {
+      "out": "重庆市",
+      "hit": true,
+      "secs": 3.4
+    },
+    "cloud_zs": {
+      "out": "重庆",
+      "hit": true,
+      "secs": 0.4
+    }
+  },
+  {
+    "query": "泰山",
+    "expected": "泰安",
+    "local_zs": {
+      "out": "泰安",
+      "hit": true,
+      "secs": 2.7
+    },
+    "local_fs": {
+      "out": "泰安市",
+      "hit": true,
+      "secs": 3.5
+    },
+    "cloud_zs": {
+      "out": "泰安",
+      "hit": true,
+      "secs": 0.5
+    }
+  },
+  {
+    "query": "乌镇",
+    "expected": "嘉兴",
+    "local_zs": {
+      "out": "嘉兴",
+      "hit": true,
+      "secs": 2.8
+    },
+    "local_fs": {
+      "out": "嘉兴市",
+      "hit": true,
+      "secs": 3.5
+    },
+    "cloud_zs": {
+      "out": "嘉兴",
+      "hit": true,
+      "secs": 0.9
+    }
+  },
+  {
+    "query": "婺源篁岭",
+    "expected": "上饶",
+    "local_zs": {
+      "out": "上饶市",
+      "hit": true,
+      "secs": 3.0
+    },
+    "local_fs": {
+      "out": "上饶市",
+      "hit": true,
+      "secs": 3.6
+    },
+    "cloud_zs": {
+      "out": "上饶",
+      "hit": true,
+      "secs": 0.6
+    }
+  },
+  {
+    "query": "鼓浪屿",
+    "expected": "厦门",
+    "local_zs": {
+      "out": "厦门市",
+      "hit": true,
+      "secs": 2.8
+    },
+    "local_fs": {
+      "out": "厦门市",
+      "hit": true,
+      "secs": 3.4
+    },
+    "cloud_zs": {
+      "out": "厦门",
+      "hit": true,
+      "secs": 0.8
+    }
+  },
+  {
+    "query": "庐山",
+    "expected": "九江",
+    "local_zs": {
+      "out": "九江",
+      "hit": true,
+      "secs": 2.7
+    },
+    "local_fs": {
+      "out": "九江市",
+      "hit": true,
+      "secs": 3.5
+    },
+    "cloud_zs": {
+      "out": "九江",
+      "hit": true,
+      "secs": 0.4
+    }
+  },
+  {
+    "query": "想去帝都玩几天",
+    "expected": "北京",
+    "local_zs": {
+      "out": "北京市",
+      "hit": true,
+      "secs": 2.9
+    },
+    "local_fs": {
+      "out": "北京市",
+      "hit": true,
+      "secs": 3.4
+    },
+    "cloud_zs": {
+      "out": "北京",
+      "hit": true,
+      "secs": 0.5
+    }
+  },
+  {
+    "query": "爬泰山住哪里",
+    "expected": "泰安",
+    "local_zs": {
+      "out": "泰安市",
+      "hit": true,
+      "secs": 3.0
+    },
+    "local_fs": {
+      "out": "泰安市",
+      "hit": true,
+      "secs": 3.5
+    },
+    "cloud_zs": {
+      "out": "泰安",
+      "hit": true,
+      "secs": 0.4
+    }
+  }
+]

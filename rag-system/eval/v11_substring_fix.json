@@ -1,0 +1,931 @@
+{
+  "api": "http://127.0.0.1:8010",
+  "mode": "hybrid",
+  "limit": 5,
+  "hit_k": 46,
+  "hit_1": 46,
+  "total_eval": 46,
+  "mrr": 1.0,
+  "fallback_ok": 5,
+  "fallback_total": 5,
+  "strategy_pass": 9,
+  "strategy_total": 9,
+  "chunk_pass": 4,
+  "chunk_total": 4,
+  "section_pass": 4,
+  "section_total": 4,
+  "rows": [
+    {
+      "id": 1,
+      "category": "城市名",
+      "query": "北京有什么好玩的",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "北京市"
+      ],
+      "chunk_titles": [
+        "🎁 购物推荐"
+      ]
+    },
+    {
+      "id": 2,
+      "category": "城市名",
+      "query": "上海三日游攻略",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "上海市"
+      ],
+      "chunk_titles": [
+        "📅 详细行程安排"
+      ]
+    },
+    {
+      "id": 3,
+      "category": "城市名",
+      "query": "天津旅游攻略",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "天津市"
+      ],
+      "chunk_titles": [
+        "📅 详细行程安排"
+      ]
+    },
+    {
+      "id": 4,
+      "category": "城市名",
+      "query": "青岛旅游攻略",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "青岛市"
+      ],
+      "chunk_titles": [
+        "💡 实用小贴士"
+      ]
+    },
+    {
+      "id": 5,
+      "category": "城市名",
+      "query": "杭州怎么玩",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "杭州市"
+      ],
+      "chunk_titles": [
+        "🚗 交通指南"
+      ]
+    },
+    {
+      "id": 6,
+      "category": "城市名",
+      "query": "厦门自由行攻略",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "厦门市"
+      ],
+      "chunk_titles": [
+        "💡 实用小贴士"
+      ]
+    },
+    {
+      "id": 7,
+      "category": "城市名",
+      "query": "哈尔滨冬季旅游",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "哈尔滨市"
+      ],
+      "chunk_titles": [
+        "🏙️ 城市简介"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "城市名",
+      "query": "大连三日游",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "大连市"
+      ],
+      "chunk_titles": [
+        "🎁 购物推荐"
+      ]
+    },
+    {
+      "id": 9,
+      "category": "城市名",
+      "query": "苏州园林攻略",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "苏州市"
+      ],
+      "chunk_titles": [
+        "💡 实用小贴士"
+      ]
+    },
+    {
+      "id": 10,
+      "category": "城市名",
+      "query": "重庆有什么好玩的",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "重庆市"
+      ],
+      "chunk_titles": [
+        "🍽️ 必吃美食"
+      ]
+    },
+    {
+      "id": 11,
+      "category": "陷阱-通用词",
+      "query": "推荐北京的商务酒店",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "北京市"
+      ],
+      "chunk_titles": [
+        "🏨 住宿推荐"
+      ]
+    },
+    {
+      "id": 12,
+      "category": "陷阱-通用词",
+      "query": "杭州亲子游推荐",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "杭州市"
+      ],
+      "chunk_titles": [
+        "🎁 购物推荐"
+      ]
+    },
+    {
+      "id": 13,
+      "category": "陷阱-通用词",
+      "query": "青岛海鲜哪里吃",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "青岛市"
+      ],
+      "chunk_titles": [
+        "🍽️ 必吃美食"
+      ]
+    },
+    {
+      "id": 14,
+      "category": "陷阱-通用词",
+      "query": "厦门看海的地方",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "厦门市"
+      ],
+      "chunk_titles": [
+        "🏙️ 城市简介"
+      ]
+    },
+    {
+      "id": 15,
+      "category": "陷阱-通用词",
+      "query": "哈尔滨冰雪大世界",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "哈尔滨市"
+      ],
+      "chunk_titles": [
+        "🏙️ 城市简介"
+      ]
+    },
+    {
+      "id": 16,
+      "category": "陷阱-通用词",
+      "query": "苏州适合拍照的园林",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "苏州市"
+      ],
+      "chunk_titles": [
+        "💡 实用小贴士"
+      ]
+    },
+    {
+      "id": 17,
+      "category": "陷阱-通用词",
+      "query": "济南有哪些温泉",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "济南市"
+      ],
+      "chunk_titles": [
+        "💡 实用小贴士"
+      ]
+    },
+    {
+      "id": 18,
+      "category": "陷阱-通用词",
+      "query": "宁波周边自驾",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "宁波市"
+      ],
+      "chunk_titles": [
+        "🎁 购物推荐"
+      ]
+    },
+    {
+      "id": 19,
+      "category": "陷阱-通用词",
+      "query": "承德避暑山庄",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "承德市"
+      ],
+      "chunk_titles": [
+        "🏨 住宿推荐"
+      ]
+    },
+    {
+      "id": 20,
+      "category": "陷阱-通用词",
+      "query": "大同云冈石窟",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "大同市"
+      ],
+      "chunk_titles": [
+        "💡 实用小贴士"
+      ]
+    },
+    {
+      "id": 21,
+      "category": "别名",
+      "query": "帝都哪里好玩",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "北京市"
+      ],
+      "chunk_titles": [
+        "🎁 购物推荐"
+      ]
+    },
+    {
+      "id": 22,
+      "category": "别名",
+      "query": "魔都三日游",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "上海市"
+      ],
+      "chunk_titles": [
+        "📅 详细行程安排"
+      ]
+    },
+    {
+      "id": 23,
+      "category": "别名",
+      "query": "泉城有什么好玩的",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "济南市"
+      ],
+      "chunk_titles": [
+        "🚗 交通指南"
+      ]
+    },
+    {
+      "id": 24,
+      "category": "别名",
+      "query": "冰城冬天去哪玩",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "哈尔滨市"
+      ],
+      "chunk_titles": [
+        "🏙️ 城市简介"
+      ]
+    },
+    {
+      "id": 25,
+      "category": "别名",
+      "query": "鹭岛自由行",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "厦门市"
+      ],
+      "chunk_titles": [
+        "🚗 交通指南"
+      ]
+    },
+    {
+      "id": 26,
+      "category": "别名",
+      "query": "姑苏城外寒山寺",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "苏州市"
+      ],
+      "chunk_titles": [
+        "🏨 住宿推荐"
+      ]
+    },
+    {
+      "id": 27,
+      "category": "景点",
+      "query": "鼓浪屿怎么玩",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "厦门市"
+      ],
+      "chunk_titles": [
+        "🏨 住宿推荐"
+      ]
+    },
+    {
+      "id": 28,
+      "category": "景点",
+      "query": "西湖十景",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "杭州市"
+      ],
+      "chunk_titles": [
+        "🎁 购物推荐"
+      ]
+    },
+    {
+      "id": 29,
+      "category": "景点",
+      "query": "中山陵",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "南京市"
+      ],
+      "chunk_titles": [
+        "💡 实用小贴士"
+      ]
+    },
+    {
+      "id": 30,
+      "category": "景点",
+      "query": "崂山",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "青岛市"
+      ],
+      "chunk_titles": [
+        "🎁 购物推荐"
+      ]
+    },
+    {
+      "id": 31,
+      "category": "景点",
+      "query": "泰山日出",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "泰安市"
+      ],
+      "chunk_titles": [
+        "💡 实用小贴士"
+      ]
+    },
+    {
+      "id": 32,
+      "category": "景点",
+      "query": "黄山云海",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "黄山市"
+      ],
+      "chunk_titles": [
+        "🏙️ 城市简介"
+      ]
+    },
+    {
+      "id": 33,
+      "category": "省级",
+      "query": "山东有哪些值得去的城市",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "招远市",
+        "莱芜市",
+        "聊城市"
+      ],
+      "chunk_titles": [
+        "🏙️ 城市简介",
+        "🏙️ 城市简介",
+        "🏙️ 城市简介"
+      ]
+    },
+    {
+      "id": 34,
+      "category": "省级",
+      "query": "江浙沪周边游",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "嘉兴市",
+        "桐乡市",
+        "湖州市"
+      ],
+      "chunk_titles": [
+        "🚗 交通指南",
+        "🚗 交通指南",
+        "🚗 交通指南"
+      ]
+    },
+    {
+      "id": 35,
+      "category": "省级",
+      "query": "东北滑雪哪里好",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "牡丹江市",
+        "吉林市",
+        "尚志市"
+      ],
+      "chunk_titles": [
+        "🎁 购物推荐",
+        "💡 实用小贴士",
+        "📅 详细行程安排"
+      ]
+    },
+    {
+      "id": 36,
+      "category": "省级",
+      "query": "河北古镇推荐",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "霸州市",
+        "保定市",
+        "藁城市"
+      ],
+      "chunk_titles": [
+        "💡 实用小贴士",
+        "💡 实用小贴士",
+        "🏨 住宿推荐"
+      ]
+    },
+    {
+      "id": 37,
+      "category": "无地名兜底",
+      "query": "推荐一个适合秋天去的地方",
+      "ok": null,
+      "rank": null,
+      "strategy": "hybrid_fallback",
+      "top_cities": [
+        "蛟河市",
+        "井冈山市",
+        "建阳市"
+      ],
+      "chunk_titles": [
+        "💡 实用小贴士",
+        "🏙️ 城市简介",
+        "💡 实用小贴士"
+      ]
+    },
+    {
+      "id": 38,
+      "category": "无地名兜底",
+      "query": "有什么好吃的",
+      "ok": null,
+      "rank": null,
+      "strategy": "hybrid_fallback",
+      "top_cities": [
+        "五大连池市",
+        "景德镇市",
+        "古交市"
+      ],
+      "chunk_titles": [
+        "🍽️ 必吃美食",
+        "🚗 交通指南",
+        "🍽️ 必吃美食"
+      ]
+    },
+    {
+      "id": 39,
+      "category": "无地名兜底",
+      "query": "我想去个安静的小城",
+      "ok": null,
+      "rank": null,
+      "strategy": "hybrid_fallback",
+      "top_cities": [
+        "宁安市",
+        "北安市",
+        "丰镇市"
+      ],
+      "chunk_titles": [
+        "🏙️ 城市简介",
+        "🏙️ 城市简介",
+        "🏙️ 城市简介"
+      ]
+    },
+    {
+      "id": 40,
+      "category": "无地名兜底",
+      "query": "周末去哪玩",
+      "ok": null,
+      "rank": null,
+      "strategy": "hybrid_fallback",
+      "top_cities": [
+        "邹城市",
+        "鹿泉市",
+        "大石桥市"
+      ],
+      "chunk_titles": [
+        "💡 实用小贴士",
+        "🏙️ 城市简介",
+        "💡 实用小贴士"
+      ]
+    },
+    {
+      "id": 41,
+      "category": "网络兜底",
+      "query": "广州有什么好玩的",
+      "ok": true,
+      "rank": null,
+      "strategy": "web_fallback",
+      "top_cities": [
+        "web",
+        "web",
+        "web"
+      ],
+      "chunk_titles": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 42,
+      "category": "网络兜底",
+      "query": "成都三日游攻略",
+      "ok": true,
+      "rank": null,
+      "strategy": "web_fallback",
+      "top_cities": [
+        "web",
+        "web",
+        "web"
+      ],
+      "chunk_titles": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 43,
+      "category": "网络兜底",
+      "query": "西安兵马俑怎么玩",
+      "ok": true,
+      "rank": null,
+      "strategy": "web_fallback",
+      "top_cities": [
+        "web",
+        "web",
+        "web"
+      ],
+      "chunk_titles": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 44,
+      "category": "模型改写",
+      "query": "杭城怎么玩",
+      "ok": true,
+      "rank": 1,
+      "strategy": "llm_rewrite",
+      "top_cities": [
+        "杭州市"
+      ],
+      "chunk_titles": [
+        "🚗 交通指南"
+      ]
+    },
+    {
+      "id": 45,
+      "category": "模型改写",
+      "query": "喀纳斯好玩吗",
+      "ok": true,
+      "rank": null,
+      "strategy": "llm_rewrite_web",
+      "top_cities": [
+        "web",
+        "web",
+        "web"
+      ],
+      "chunk_titles": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 46,
+      "category": "冷门别称",
+      "query": "鹰城有什么好玩的",
+      "ok": true,
+      "rank": null,
+      "strategy": "web_fallback",
+      "top_cities": [
+        "web",
+        "web"
+      ],
+      "chunk_titles": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 47,
+      "category": "别名",
+      "query": "金陵有什么好玩的",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "南京市"
+      ],
+      "chunk_titles": [
+        "💡 实用小贴士"
+      ]
+    },
+    {
+      "id": 48,
+      "category": "别名",
+      "query": "牛城怎么样",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "邢台市"
+      ],
+      "chunk_titles": [
+        "🏨 住宿推荐"
+      ]
+    },
+    {
+      "id": 49,
+      "category": "冷门别称",
+      "query": "蓉城三日游",
+      "ok": true,
+      "rank": null,
+      "strategy": "web_fallback",
+      "top_cities": [
+        "web",
+        "web",
+        "web"
+      ],
+      "chunk_titles": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 50,
+      "category": "冷门别称",
+      "query": "铜城有什么好玩的",
+      "ok": true,
+      "rank": null,
+      "strategy": "web_fallback",
+      "top_cities": [
+        "web",
+        "web",
+        "web"
+      ],
+      "chunk_titles": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 51,
+      "category": "全国别名",
+      "query": "长安怎么玩",
+      "ok": true,
+      "rank": null,
+      "strategy": "web_fallback",
+      "top_cities": [
+        "web",
+        "web",
+        "web"
+      ],
+      "chunk_titles": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 52,
+      "category": "块级-行程",
+      "query": "北京三日游行程怎么安排",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "北京市"
+      ],
+      "chunk_titles": [
+        "📅 详细行程安排"
+      ]
+    },
+    {
+      "id": 53,
+      "category": "块级-住宿",
+      "query": "杭州住哪里比较方便",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "杭州市"
+      ],
+      "chunk_titles": [
+        "🏨 住宿推荐"
+      ]
+    },
+    {
+      "id": 54,
+      "category": "块级-美食",
+      "query": "去青岛吃什么好",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "青岛市"
+      ],
+      "chunk_titles": [
+        "🍽️ 必吃美食"
+      ]
+    },
+    {
+      "id": 55,
+      "category": "块级-交通",
+      "query": "怎么去厦门",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "厦门市"
+      ],
+      "chunk_titles": [
+        "🚗 交通指南"
+      ]
+    },
+    {
+      "id": 56,
+      "category": "口语化",
+      "query": "下个月想带爸妈去苏州转转",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "苏州市"
+      ],
+      "chunk_titles": [
+        "📅 详细行程安排"
+      ]
+    },
+    {
+      "id": 57,
+      "category": "口语化",
+      "query": "国庆想去哈尔滨看冰雪",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "哈尔滨市"
+      ],
+      "chunk_titles": [
+        "🏙️ 城市简介"
+      ]
+    },
+    {
+      "id": 58,
+      "category": "易混城市",
+      "query": "泉州和漳州哪个好玩",
+      "ok": true,
+      "rank": 1,
+      "strategy": "location_priority",
+      "top_cities": [
+        "漳州市",
+        "泉州市"
+      ],
+      "chunk_titles": [
+        "🏙️ 城市简介",
+        "🚗 交通指南"
+      ]
+    },
+    {
+      "id": 59,
+      "category": "无地名兜底",
+      "query": "暑假带娃去海边哪里好",
+      "ok": null,
+      "rank": null,
+      "strategy": "hybrid_fallback",
+      "top_cities": [
+        "烟台市",
+        "日照市",
+        "鹿泉市"
+      ],
+      "chunk_titles": [
+        "💡 实用小贴士",
+        "💡 实用小贴士",
+        "🏙️ 城市简介"
+      ]
+    },
+    {
+      "id": 60,
+      "category": "块级-预算",
+      "query": "去成都玩三天大概花多少钱",
+      "ok": true,
+      "rank": null,
+      "strategy": "web_fallback",
+      "top_cities": [
+        "web",
+        "web",
+        "web"
+      ],
+      "chunk_titles": [
+        "",
+        "",
+        ""
+      ]
+    }
+  ]
+}
