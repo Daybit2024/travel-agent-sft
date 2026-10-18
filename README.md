@@ -2,7 +2,7 @@
 
 > 垂直领域旅行助手：**合成训练数据 → LoRA 微调小模型 → 分层评测 → 量化部署 → 工具调用 Agent 集成**，全链路自研且可复现。
 
-技术栈：Python · Qwen3（0.6B / 4B）· LoRA (PEFT) · OpenAI 兼容 API · GGUF / Ollama · Milvus · Flask · LangGraph
+技术栈：Python · Qwen3（0.6B / 4B）· LoRA (PEFT) · OpenAI 兼容 API · GGUF / Ollama · Milvus · Flask · LangGraph · MCP
 
 ---
 
@@ -92,7 +92,7 @@ flowchart LR
 - **流式输出**：网页 Demo 用 `graph.stream(stream_mode="messages")` 逐 token 渲染；流结束后以图状态的 `final_answer` 校正（护栏降级时替换为原始结果），兼顾体验与保真；
 - **跨城问路**：云端规则引导主动调用 `query_route` 获取铁路方案（G/K 字头车次）；图版在工具执行前用用户原话中的「从 X 到 Y」纠正模型幻觉坐标；工具同时支持地名与坐标终点；
 - **可观测性**：LangChain 回调把 LLM 耗时 / tokens / 工具名写入原有请求流水（`logs/`），报告脚本口径不变；LangSmith 暂未接入（预留环境变量即可开启）。
-- **测试**：122 个单元测试全绿。
+- **测试**：128 个单元测试全绿。
 
 ```bash
 pip install -r requirements.txt
@@ -107,7 +107,8 @@ python -m agent_graph.web_demo_graph      # 网页 Demo（含历史会话选择�
 - **LLM 侧仍使用原 tool schema**，MCP 只替换 `tools` 节点的执行通道，模型调用行为不变；
 - 默认启用（`TRAVEL_MCP_WEATHER=1`）；设为 `0` 回退本地直连；超时/失败自动回退并记录 `mcp` 日志事件；
 - 常驻会话：网页启动时后台预热，首次工具调用不再承担子进程初始化耗时；首次单独运行仍需初始化，后续调用约 1–2 秒；
-- 对比验证：`python mcp_servers/compare_direct_vs_mcp.py`（直连 vs MCP 的工具 schema、tool_calls、结果与答复）。
+- 子进程仅继承最小环境变量；`trace_id` 跨节点贯通，MCP 事件可与同一次请求的 LLM/高德日志关联；
+- 独立验证：`python mcp_servers/smoke_mcp.py`（工具清单、参数 schema、一次真实调用）。
 
 ### Skill 渐进式披露（Claude Agent Skills 格式）
 

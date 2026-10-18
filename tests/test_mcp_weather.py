@@ -29,3 +29,12 @@ def test_content_to_text_sdk_objects():
 def test_disabled_returns_none(monkeypatch):
     monkeypatch.setattr(mcp_weather, "ENABLED", False)
     assert mcp_weather.get_weather_via_mcp("北京", "2026-10-20", 1) is None
+
+
+def test_child_env_excludes_secrets(monkeypatch):
+    monkeypatch.setenv("AMAP_KEY", "secret-amap")
+    monkeypatch.setenv("DASHSCOPE_API_KEY", "secret-dashscope")
+    env = mcp_weather._child_env()
+    assert "AMAP_KEY" not in env
+    assert "DASHSCOPE_API_KEY" not in env
+    assert env.get("PYTHONIOENCODING") == "utf-8"

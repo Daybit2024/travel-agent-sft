@@ -17,16 +17,16 @@ AGENT_DIR = PROJECT_ROOT / "agent"
 if str(AGENT_DIR) not in sys.path:
     sys.path.insert(0, str(AGENT_DIR))
 
-from tools.city_utils import resolve_city  # noqa: E402,F401
 from tools.get_hotel import get_hotel_recommendations, get_hotel_reviews  # noqa: E402
 from tools.get_route import geocode, geocode_place, query_routes, regeo  # noqa: E402
-from tools.get_weather import get_weather_by_date_range  # noqa: E402
 from tools.request_log import get_trace_id, record, set_trace_id  # noqa: E402,F401
 from tools.transit_strategy import (  # noqa: E402
     detect_transit_strategy,
     llm_transit_strategy,
     strategy_name,
 )
+
+from .weather import fetch_weather
 
 RAG_API_URL = "http://127.0.0.1:8010"
 
@@ -192,18 +192,7 @@ def search_travel_guide(location: str, search_mode: str = "hybrid") -> str:
 
 
 def get_weather_info(location: str, start_date: str, num_days: int = 1) -> str:
-    try:
-        weather_list = get_weather_by_date_range(location, start_date, num_days)
-        if weather_list:
-            weather_text = f"天气信息({location} - {start_date}起{num_days}天):\n"
-            for i, weather in enumerate(weather_list, 1):
-                weather_text += f"\n第{i}天 ({weather['日期']}):\n"
-                weather_text += f"  天气: {weather.get('天气', weather.get('白天天气', '未知'))}\n"
-                weather_text += f"  温度: {weather['最低温']} ~ {weather['最高温']}\n"
-            return weather_text
-        return f"无法获取{location}在{start_date}起{num_days}天的天气信息"
-    except Exception as e:
-        return f"天气查询出错: {e}"
+    return fetch_weather(location, start_date, num_days)
 
 
 # ── 路线 ─────────────────────────────────────────────────

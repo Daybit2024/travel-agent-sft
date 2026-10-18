@@ -14,6 +14,7 @@ from .toolkit import (
     detect_route_strategy,
     query_route as run_query_route,
     record,
+    set_trace_id,
     should_continue_tool_chain,
 )
 
@@ -86,6 +87,7 @@ def _with_system(state: AgentState) -> list:
 
 def agent_node(state: AgentState, llm, tool_schemas) -> dict:
     """模型节点:有工具调用 → 入历史进 tools;自然收口 → 只产出待清洗的终答。"""
+    set_trace_id(state.get("trace_id", ""))
     schemas = tool_schemas_for(tool_schemas, state.get("active_skill", "default"))
     bound = llm.bind_tools(schemas) if schemas else llm
     response = bound.invoke(_with_system(state), config={"callbacks": [RequestLogHandler()]})
@@ -96,6 +98,7 @@ def agent_node(state: AgentState, llm, tool_schemas) -> dict:
 
 def tools_node(state: AgentState) -> dict:
     """工具节点:执行 tool_calls;query_route 前由代码注入公交偏好策略。"""
+    set_trace_id(state.get("trace_id", ""))
     last = state["messages"][-1]
     tool_messages = []
     results = []
@@ -106,16 +109,11 @@ def tools_node(state: AgentState) -> dict:
         name = call["name"]
         args = call.get("args") or {}
         if name == "get_weather_info":
-            mcp_result = get_weather_via_mcp(
+            result = get_weather_via_mcp(
                 args.get("location"),
                 args.get("start_date"),
                 args.get("num_days", 1),
-            )
-            result = (
-                mcp_result
-                if mcp_result is not None
-                else str(call_function(name, args))
-            )
+            ) or str(call_function(name, args))
         elif name == "query_route":
             args = _fix_route_args(args, state["messages"])
             strategy = detect_route_strategy(state["messages"])
@@ -145,6 +143,7 @@ def tools_node(state: AgentState) -> dict:
 
 def wrap_up_node(state: AgentState, llm) -> dict:
     """收尾轮:不绑工具,要求模型只输出文本;尾部提示追加到最后一条工具结果。"""
+    set_trace_id(state.get("trace_id", ""))
     messages = _with_system(state)
     last = messages[-1]
     if isinstance(last, ToolMessage):
@@ -158,6 +157,7 @@ def wrap_up_node(state: AgentState, llm) -> dict:
 
 def finalize_node(state: AgentState) -> dict:
     """出口:清洗工具调用文本泄漏 → 终答保真核对 → 不一致降级为原始结果。"""
+    set_trace_id(state.get("trace_id", ""))
     raw = state.get("final_answer") or ""
     cleaned = TOOLCALL_TEXT_RE.sub("", raw).strip()
     last_results = state.get("last_tool_results") or []

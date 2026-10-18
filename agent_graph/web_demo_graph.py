@@ -121,7 +121,7 @@ with gr.Blocks(title="旅行助手 · LangGraph") as demo:
         load_btn = gr.Button("加载所选会话", scale=1)
 
     thread_state = gr.State("")
-    chatbot = gr.Chatbot(height=460, label="对话", type="messages")
+    chatbot = gr.Chatbot(height=460, label="对话", type="messages", allow_tags=False)
 
     with gr.Row():
         msg = gr.Textbox(placeholder="输入你的旅行问题，回车发送…", scale=5)

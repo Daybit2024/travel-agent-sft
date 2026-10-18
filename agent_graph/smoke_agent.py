@@ -17,6 +17,7 @@ load_dotenv(os.path.join(PROJECT_ROOT, ".env"))
 from langchain_core.messages import HumanMessage
 
 from agent_graph.graph import build_graph
+from agent_graph.mcp_weather import warm_up_mcp
 from agent_graph.memory import make_checkpointer
 from agent_graph.toolkit import set_trace_id
 
@@ -29,6 +30,7 @@ def main():
     thread_id = sys.argv[2] if len(sys.argv) > 2 else f"smoke-tools-{int(time.time())}"
 
     set_trace_id()
+    warm_up_mcp()
     graph = build_graph(checkpointer=make_checkpointer())
     config = {"configurable": {"thread_id": thread_id}}
 

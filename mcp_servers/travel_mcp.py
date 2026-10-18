@@ -12,7 +12,7 @@ if str(PROJECT_ROOT) not in sys.path:
 from mcp.server.fastmcp import FastMCP
 from pydantic import Field
 
-from agent_graph.toolkit import get_weather_info as _get_weather_info
+from agent_graph.weather import fetch_weather
 
 mcp = FastMCP("travel-tools")
 
@@ -32,7 +32,7 @@ def get_weather_info(
     """查询指定地点和时间段的天气信息"""
     # stdio 模式下 stdout 专用于 JSON-RPC；工具内部的 print 必须改道 stderr
     with contextlib.redirect_stdout(sys.stderr):
-        return _get_weather_info(location, start_date, num_days)
+        return fetch_weather(location, start_date, num_days)
 
 
 if __name__ == "__main__":

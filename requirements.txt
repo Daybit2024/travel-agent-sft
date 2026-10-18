@@ -11,7 +11,6 @@ langgraph-checkpoint-sqlite>=3.1,<4
 
 # MCP 演示（天气工具执行通道）
 mcp>=1.30,<2
-langchain-mcp-adapters>=0.3,<1
 
 # 网页 Demo（可选）
 # 注意: gradio 6 要求 huggingface-hub>=1.16 而 transformers 4.x 要求 <1.0，互斥 → 钉 5.x

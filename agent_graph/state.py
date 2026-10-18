@@ -16,6 +16,7 @@ class AgentState(TypedDict, total=False):
     """
 
     messages: Annotated[list, add_messages]
+    trace_id: str
     user_info: dict
     active_skill: str
     tool_rounds: int

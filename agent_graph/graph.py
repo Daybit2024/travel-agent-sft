@@ -5,11 +5,12 @@ from .nodes import agent_node, finalize_node, tools_node, wrap_up_node
 from .routing import after_agent, after_tools
 from .skills import route_skill
 from .state import AgentState
-from .toolkit import load_tool_schemas
+from .toolkit import load_tool_schemas, set_trace_id
 
 
 def load_skill_node(state) -> dict:
-    return {"active_skill": route_skill(state["messages"])}
+    trace_id = set_trace_id()
+    return {"active_skill": route_skill(state["messages"]), "trace_id": trace_id}
 
 
 def build_graph(checkpointer=None, llm=None):
