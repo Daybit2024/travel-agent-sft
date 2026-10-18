@@ -95,11 +95,19 @@ flowchart LR
 - **测试**：122 个单元测试全绿。
 
 ```bash
-pip install langgraph langchain-openai langgraph-checkpoint-sqlite
+pip install -r requirements.txt
 python -m agent_graph.smoke_chat          # 两轮闲聊 + SQLite 记忆
 python -m agent_graph.smoke_agent         # 工具链冒烟（可传问题/线程）
 python -m agent_graph.web_demo_graph      # 网页 Demo（含历史会话选择）
 ```
+
+### MCP 演示（仅天气工具）
+
+- `mcp_servers/travel_mcp.py` 用 FastMCP 暴露 `get_weather_info`（描述与参数说明和 `all_tools.json` 对齐）；
+- **LLM 侧仍使用原 tool schema**，MCP 只替换 `tools` 节点的执行通道，模型调用行为不变；
+- 默认启用（`TRAVEL_MCP_WEATHER=1`）；设为 `0` 回退本地直连；超时/失败自动回退并记录 `mcp` 日志事件；
+- 常驻会话：网页启动时后台预热，首次工具调用不再承担子进程初始化耗时；首次单独运行仍需初始化，后续调用约 1–2 秒；
+- 对比验证：`python mcp_servers/compare_direct_vs_mcp.py`（直连 vs MCP 的工具 schema、tool_calls、结果与答复）。
 
 ### Skill 渐进式披露（Claude Agent Skills 格式）
 

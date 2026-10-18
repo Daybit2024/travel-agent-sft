@@ -20,6 +20,7 @@ import gradio as gr
 from langchain_core.messages import HumanMessage
 
 from agent_graph.graph import build_graph
+from agent_graph.mcp_weather import warm_up_mcp
 from agent_graph.memory import make_checkpointer
 from agent_graph.sessions import list_sessions
 from agent_graph.toolkit import set_trace_id
@@ -29,6 +30,7 @@ if hasattr(sys.stdout, "reconfigure"):
 
 checkpointer = make_checkpointer()
 graph = build_graph(checkpointer=checkpointer)
+warm_up_mcp()
 
 
 def _chat_history(thread_id: str) -> list:

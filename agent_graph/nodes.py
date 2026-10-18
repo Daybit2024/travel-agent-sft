@@ -3,6 +3,7 @@ import re
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage, ToolMessage
 
 from .callbacks import RequestLogHandler
+from .mcp_weather import get_weather_via_mcp
 from .skills import build_skill_system_prompt, tool_schemas_for
 from .state import AgentState
 from .toolkit import (
@@ -104,7 +105,18 @@ def tools_node(state: AgentState) -> dict:
     for call in last.tool_calls:
         name = call["name"]
         args = call.get("args") or {}
-        if name == "query_route":
+        if name == "get_weather_info":
+            mcp_result = get_weather_via_mcp(
+                args.get("location"),
+                args.get("start_date"),
+                args.get("num_days", 1),
+            )
+            result = (
+                mcp_result
+                if mcp_result is not None
+                else str(call_function(name, args))
+            )
+        elif name == "query_route":
             args = _fix_route_args(args, state["messages"])
             strategy = detect_route_strategy(state["messages"])
             result = str(
